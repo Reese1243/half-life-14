@@ -261,8 +261,9 @@
   name: grube plushie
   description: yellow? or green?
   components:
-  -type: Sprite
-  sprite: Objects/Fun/Plushies/grube.rsi
+  - type: Sprite
+    sprite: Objects/Fun/Plushies/grube.rsi
+    state: icon
 
 - type: entity
   parent: BasePlushie
