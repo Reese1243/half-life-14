@@ -264,9 +264,13 @@
   - type: Sprite
     sprite: Objects/Fun/Plushies/grube.rsi
     state: icon
+  - type: UseDelay
+    delay: 0.5
   - type: EmitSoundOnUse
     sound: &GrubePlushieSound
-      path: \Audio\Items\Toys\greebhello.ogg
+      path: /Audio/Items/Toys/greebhello.ogg
+      params:
+        volume: -4
   - type: EmitSoundOnLand
     sound: *GrubePlushieSound
   - type: EmitSoundOnActivate
@@ -275,6 +279,12 @@
     sound: *GrubePlushieSound
   - type: EmitSoundOnCollide
     sound: *GrubePlushieSound
+  - type: Edible
+    useSound: *GrubePlushieSound
+  - type: MeleeWeapon
+    soundHit: *GrubePlushieSound
+    attackRate: 10
+
 
 
 - type: entity
