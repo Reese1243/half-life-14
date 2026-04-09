@@ -264,6 +264,18 @@
   - type: Sprite
     sprite: Objects/Fun/Plushies/grube.rsi
     state: icon
+  - type: EmitSoundOnUse
+    sound: &GrubePlushieSound
+      path: \Audio\Items\Toys\greebhello.ogg
+  - type: EmitSoundOnLand
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnActivate
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnTrigger
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnCollide
+    sound: *GrubePlushieSound
+
 
 - type: entity
   parent: BasePlushie
