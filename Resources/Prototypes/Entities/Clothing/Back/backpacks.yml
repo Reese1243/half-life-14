@@ -37,6 +37,17 @@
 
 - type: entity
   parent: ClothingBackpack
+  id: ClothingBackpackHecu
+  name: HECU rucksack
+  description: A standard issue rucksack used by the HECU forces in hazardous environments. It's made of a tough, waterproof material and has several compartments for storing gear.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/hecubackpack.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+
+- type: entity
+  parent: ClothingBackpack
   id: ClothingBackpackClown
   name: giggles von honkerton
   description: It's a backpack made by Honk! Co.

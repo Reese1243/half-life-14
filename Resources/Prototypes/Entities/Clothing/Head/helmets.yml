@@ -46,6 +46,27 @@
     layers:
       Hair: HEAD
 
+- type: entity
+  parent: [ ClothingHeadHelmetArmoredBase ]
+  id: ClothingHeadHelmetHecuGrunt
+  name: HECU combat helmet
+  description: A standard combat helmet issued to HECU marines.
+  components:
+    - type: Sprite
+      sprite: Clothing/Head/Helmets/hecuhelmetgrunt.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Helmets/hecuhelmetgrunt.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.9
+          Slash: 0.9
+          Piercing: 0.9
+          Heat: 0.9
+    - type: HideLayerClothing
+      layers:
+        Hair: HEAD
+
 #Mercenary Helmet
 - type: entity
   parent: [ ClothingHeadHelmetArmoredBase, BaseMajorContraband ]

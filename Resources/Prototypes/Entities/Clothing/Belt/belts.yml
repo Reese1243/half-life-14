@@ -164,6 +164,17 @@
     sprite: Clothing/Belt/mercwebbing.rsi
 
 - type: entity
+  parent: [ ClothingBeltStorageBase ]
+  id: ClothingBeltHecuWebbing
+  name: HECU webbing
+  description: standard issue webbing for marines in the HECU
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/hecuwebbing.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/hecuwebbing.rsi
+
+- type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSalvageWebbing
   name: salvage rig
@@ -173,6 +184,8 @@
     sprite: Clothing/Belt/salvagewebbing.rsi
   - type: Clothing
     sprite: Clothing/Belt/salvagewebbing.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
 
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
