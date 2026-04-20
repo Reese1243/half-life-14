@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "license": "CC0-1.0",
+    "copyright": "Created by Reese1243 (github) for SS14",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "base"
+        },
+        {
+            "name": "mag-1"
+        },
+        {
+            "name": "inhand-left-mag",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right-mag",
+            "directions": 4
+        }
+    ]
+}
