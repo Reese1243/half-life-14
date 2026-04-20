@@ -892,6 +892,9 @@
   id: MagazinePistol # WeaponPistolMk58, WeaponPistolViper, ClothingBeltSecurity
 
 - type: Tag
+  id: MagazineGlock #WeaponPistolGlock
+
+- type: Tag
   id: MagazinePistolCaselessRifle # WeaponPistolCobra
 
 - type: Tag

@@ -185,6 +185,70 @@
       - state: inhand-right-mag
 
 - type: entity
+  parent: BaseMagazinePistol
+  id: MagazineGlock
+  name: glock magazine (9x19 parabellum)
+  description: 10-round single-stack magazine for the glock.
+  components:
+  - type: Tag
+    tags:
+      - MagazineGlock
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgePistol
+    capacity: 17
+    proto: CartridgePistol
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/glock_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
+  - type: MagazineVisuals
+    magstate: mag
+    steps: 2
+    zerovisible: False
+
+- type: entity
+  parent: BaseMagazinePistol
+  id: MagazineGlockEmpty
+  name: glock magazine (9x19 parabellum)
+  suffix: empty
+  description: 10-round single-stack magazine for the glock.
+  components:
+  - type: Tag
+    tags:
+      - MagazineGlock
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/glock_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
+  - type: MagazineVisuals
+    magstate: mag
+    steps: 2
+    zerovisible: False
+
+- type: entity
   parent: MagazinePistol
   id: MagazinePistolIncendiary
   name: pistol magazine (.35 auto incendiary)
