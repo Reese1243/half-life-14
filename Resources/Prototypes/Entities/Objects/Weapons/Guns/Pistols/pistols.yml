@@ -216,6 +216,50 @@
     stealGroup: OfficerHandgun
 
 - type: entity
+  name: glock
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolGlock
+  description: A popular pick among law enforcement agencies everywhere. The Glock is standard issue for the Black Mesa security team.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/glock.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Pistols/glock.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: Gun
+    fireRate: 5
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/Glock HL/pl_gun3.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineGlock
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineGlock
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity
   name: N1984
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolN1984
