@@ -167,7 +167,7 @@
   id: MagazinePistolEmpty
   name: pistol magazine (.35 auto any)
   suffix: empty
-  description: 10-round single-stack magazine for pistols.
+  description: 17-round double-stack magazine for pistols.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -188,7 +188,7 @@
   parent: BaseMagazinePistol
   id: MagazineGlock
   name: glock magazine (9x19 parabellum)
-  description: 10-round single-stack magazine for the glock.
+  description: 17-round double-stack magazine for the glock.
   components:
   - type: Tag
     tags:
@@ -216,7 +216,7 @@
   - type: MagazineVisuals
     magstate: mag
     steps: 2
-    zerovisible: False
+    zerovisible: false
 
 - type: entity
   parent: BaseMagazinePistol
@@ -246,7 +246,7 @@
   - type: MagazineVisuals
     magstate: mag
     steps: 2
-    zerovisible: False
+    zerovisible: false
 
 - type: entity
   parent: MagazinePistol
