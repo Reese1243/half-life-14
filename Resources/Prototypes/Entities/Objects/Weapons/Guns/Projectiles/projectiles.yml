@@ -90,7 +90,7 @@
       types:
         Piercing: 14
     soundHit:
-      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+      path: /Audio/Weapons/MesaStationWeapons/Impacts_Explosions/bullet_hit2.ogg
   - type: TimedDespawn
     lifetime: 10
 

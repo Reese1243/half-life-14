@@ -19,6 +19,8 @@
         Slash: 10
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
+    soundSwing:
+      path: /Audio/Weapons/MesaStationWeapons/OF_Combat_Knife/knife3.ogg
   - type: Sprite
   - type: Item
     size: Small

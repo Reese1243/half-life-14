@@ -27,6 +27,8 @@
     - suitStorage
     - Belt
   - type: Gun
+    soundEmpty:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/dryfire1.ogg
     fireRate: 6
     selectedMode: SemiAuto
     availableModes:
@@ -237,14 +239,21 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/MesaStationWeapons/Glock HL/pl_gun3.ogg
+      path: /Audio/Weapons/MesaStationWeapons/Glock_HL/pl_gun3.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload3.ogg
+    soundBoltClosed:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/Generic_Shared/slideback1.ogg
+    soundBoltOpened:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload3.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineGlock
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        insertSound: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload1.ogg
+        ejectSound: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload2.ogg
         priority: 2
         whitelist:
           tags:
