@@ -1,7 +1,7 @@
 - type: soundCollection
   id: MaleSneezes
   files:
-    - /Audio/Voice/Human/male_sneeze_1.ogg
+    - /Audio/MesaStationMobs/PlayerHumanMaleVoice/sneeze.ogg
 
 - type: soundCollection
   id: FemaleSneezes
@@ -11,8 +11,7 @@
 - type: soundCollection
   id: MaleCoughs
   files:
-  - /Audio/Voice/Human/male_cough_1.ogg
-  - /Audio/Voice/Human/male_cough_2.ogg
+  - /Audio/MesaStationMobs/PlayerHumanMaleVoice/cough.ogg
 
 - type: soundCollection
   id: FemaleCoughs
