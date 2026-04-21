@@ -10,7 +10,7 @@
       tags:
         - CartridgePistol
     proto: CartridgePistol
-    capacity: 60
+    capacity: 102
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -20,7 +20,7 @@
     sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
   - type: MagazineVisuals
     magState: mag
-    steps: 3
+    steps: 4
     zeroVisible: false
   - type: Appearance
 
@@ -29,7 +29,7 @@
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
   name: ammunition box (9x19 parabellum)
-  description: A cardboard box of 9x19 rounds. Intended to hold general-purpose kinetic ammunition.
+  description: A standard ammo can of 9x19 rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -44,7 +44,7 @@
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
   name: ammunition box (9x19 practice)
-  description: A cardboard box of 9x19 practice rounds. Intended to hold harmless practice ammunition.
+  description: A standard ammo can of 9x19 practice rounds. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -60,7 +60,7 @@
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
   name: ammunition box (9x19 incendiary)
-  description: A cardboard box of 9x19 rounds. Intended to hold self-igniting incendiary ammunition.
+  description: A standard ammo can of 9x19 rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -76,7 +76,7 @@
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolUranium
   name: ammunition box (9x19 uranium)
-  description: A cardboard box of 9x19 rounds. Intended to hold exotic uranium-core ammunition.
+  description: A standard ammo can of 9x19 rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
