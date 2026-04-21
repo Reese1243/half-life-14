@@ -1,71 +1,67 @@
 - type: soundCollection
   id: FootstepCarpet
   files:
-  - /Audio/Effects/Footsteps/carpet1.ogg
-  - /Audio/Effects/Footsteps/carpet2.ogg
-  - /Audio/Effects/Footsteps/carpet3.ogg
-  - /Audio/Effects/Footsteps/carpet4.ogg
-  - /Audio/Effects/Footsteps/carpet5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step4.ogg
 
 - type: soundCollection
   id: FootstepWood
   files:
-  - /Audio/Effects/Footsteps/wood1.ogg
-  - /Audio/Effects/Footsteps/wood2.ogg
-  - /Audio/Effects/Footsteps/wood3.ogg
-  - /Audio/Effects/Footsteps/wood4.ogg
-  - /Audio/Effects/Footsteps/wood5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step4.ogg
 
 - type: soundCollection
   id: FootstepCatwalk
   files:
-  - /Audio/Effects/Footsteps/catwalk1.ogg
-  - /Audio/Effects/Footsteps/catwalk2.ogg
-  - /Audio/Effects/Footsteps/catwalk3.ogg
-  - /Audio/Effects/Footsteps/catwalk4.ogg
-  - /Audio/Effects/Footsteps/catwalk5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_grate1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_grate2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_grate3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_grate4.ogg
 
 - type: soundCollection
   id: FootstepFloor
   files:
-  - /Audio/Effects/Footsteps/floor1.ogg
-  - /Audio/Effects/Footsteps/floor2.ogg
-  - /Audio/Effects/Footsteps/floor3.ogg
-  - /Audio/Effects/Footsteps/floor4.ogg
-  - /Audio/Effects/Footsteps/floor5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_step4.ogg
 
 - type: soundCollection
   id: FootstepHull
   files:
-  - /Audio/Effects/Footsteps/hull1.ogg
-  - /Audio/Effects/Footsteps/hull2.ogg
-  - /Audio/Effects/Footsteps/hull3.ogg
-  - /Audio/Effects/Footsteps/hull4.ogg
-  - /Audio/Effects/Footsteps/hull5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct4.ogg
 
 - type: soundCollection
   id: FootstepPlating
   files:
-  - /Audio/Effects/Footsteps/plating1.ogg
-  - /Audio/Effects/Footsteps/plating2.ogg
-  - /Audio/Effects/Footsteps/plating3.ogg
-  - /Audio/Effects/Footsteps/plating4.ogg
-  - /Audio/Effects/Footsteps/plating5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_duct4.ogg
 
 - type: soundCollection
   id: FootstepTile
   files:
-  - /Audio/Effects/Footsteps/tile1.ogg
-  - /Audio/Effects/Footsteps/tile2.ogg
-  - /Audio/Effects/Footsteps/tile3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_tile1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_tile2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_tile3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_tile4.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_tile5.ogg
 
 - type: soundCollection
   id: FootstepSlime
   files:
-  - /Audio/Effects/Footsteps/slime1.ogg
-  - /Audio/Effects/Footsteps/slime2.ogg
-  - /Audio/Effects/Footsteps/slime3.ogg
-  - /Audio/Effects/Footsteps/slime4.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh4.ogg
 
 - type: soundCollection
   id: FootstepClown
@@ -97,35 +93,34 @@
 - type: soundCollection
   id: FootstepAsteroid
   files:
-  - /Audio/Effects/Footsteps/asteroid1.ogg
-  - /Audio/Effects/Footsteps/asteroid2.ogg
-  - /Audio/Effects/Footsteps/asteroid3.ogg
-  - /Audio/Effects/Footsteps/asteroid4.ogg
-  - /Audio/Effects/Footsteps/asteroid5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt4.ogg
 
 - type: soundCollection
   id: FootstepSnow
   files:
-  - /Audio/Effects/Footsteps/snowstep1.ogg
-  - /Audio/Effects/Footsteps/snowstep2.ogg
-  - /Audio/Effects/Footsteps/snowstep3.ogg
-  - /Audio/Effects/Footsteps/snowstep4.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt4.ogg
 
 - type: soundCollection
   id: FootstepGrass
   files:
-  - /Audio/Effects/Footsteps/grass1.ogg
-  - /Audio/Effects/Footsteps/grass2.ogg
-  - /Audio/Effects/Footsteps/grass3.ogg
-  - /Audio/Effects/Footsteps/grass4.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_dirt4.ogg
 
 - type: soundCollection
   id: FootstepWater
   files:
-    - /Audio/Effects/Footsteps/water1.ogg
-    - /Audio/Effects/Footsteps/water2.ogg
-    - /Audio/Effects/Footsteps/water3.ogg
-    - /Audio/Effects/Footsteps/water4.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_wade1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_wade2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_wade3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_wade4.ogg
 
 - type: soundCollection
   id: BarestepHard
@@ -194,20 +189,18 @@
 - type: soundCollection
   id: FootstepPuddle
   files:
-  - /Audio/Effects/Footsteps/puddle1.ogg
-  - /Audio/Effects/Footsteps/puddle2.ogg
-  - /Audio/Effects/Footsteps/puddle3.ogg
-  - /Audio/Effects/Footsteps/puddle4.ogg
-  - /Audio/Effects/Footsteps/puddle5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh4.ogg
 
 - type: soundCollection
   id: FootstepBlood
   files:
-  - /Audio/Effects/Footsteps/blood1.ogg
-  - /Audio/Effects/Footsteps/blood2.ogg
-  - /Audio/Effects/Footsteps/blood3.ogg
-  - /Audio/Effects/Footsteps/blood4.ogg
-  - /Audio/Effects/Footsteps/blood5.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh1.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh2.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh3.ogg
+  - /Audio/MesaStationMobs/MobActions/FootSteps/pl_slosh4.ogg
 
 - type: soundCollection
   id: FootstepSticky
