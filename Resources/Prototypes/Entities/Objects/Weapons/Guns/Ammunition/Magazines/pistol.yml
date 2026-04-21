@@ -214,9 +214,9 @@
       right:
       - state: inhand-right-mag
   - type: MagazineVisuals
-    magState: mag
+    magstate: mag
     steps: 2
-    zeroVisible: false
+    zerovisible: false
 
 - type: entity
   parent: BaseMagazinePistol
@@ -244,9 +244,9 @@
       right:
       - state: inhand-right-mag
   - type: MagazineVisuals
-    magState: mag
+    magstate: mag
     steps: 2
-    zeroVisible: false
+    zerovisible: false
 
 - type: entity
   parent: MagazinePistol
