@@ -8,6 +8,8 @@
     tags:
       - MagazinePistol
   - type: BallisticAmmoProvider
+    soundInsert:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/pl_shell1.ogg
     mayTransfer: true
     whitelist:
       tags:
@@ -188,7 +190,7 @@
   parent: BaseMagazinePistol
   id: MagazineGlock
   name: glock magazine (9x19 parabellum)
-  description: 17-round double-stack magazine for the glock.
+  description: 17-round double-stack magazine for the glock. Has a window to monitor ammunition, if you were looking at it from the correct side.
   components:
   - type: Tag
     tags:
@@ -223,7 +225,7 @@
   id: MagazineGlockEmpty
   name: glock magazine (9x19 parabellum)
   suffix: empty
-  description: 10-round single-stack magazine for the glock.
+  description: 17-round double-stack magazine for the glock. Has a window to monitor ammunition, if you were looking at it from the correct side.
   components:
   - type: Tag
     tags:

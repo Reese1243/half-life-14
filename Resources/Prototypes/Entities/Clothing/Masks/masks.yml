@@ -229,7 +229,7 @@
 
 
 - type: entity
-  parent: ClothingMaskBase
+  parent: ClothingMaskPullableBase
   id: ClothingMaskHecuGasMask
   name: HECU gas mask
   description: An HECU gas mask. Allows for long term operations in hazardous environments.
