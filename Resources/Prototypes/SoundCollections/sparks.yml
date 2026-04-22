@@ -1,7 +1,9 @@
 - type: soundCollection
   id: sparks
   files:
-  - /Audio/Effects/sparks1.ogg
-  - /Audio/Effects/sparks2.ogg
-  - /Audio/Effects/sparks3.ogg
-  - /Audio/Effects/sparks4.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark1.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark2.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark3.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark4.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark5.ogg
+  - /Audio/Ambience/MesaStationAmbience/Buttons/spark6.ogg
