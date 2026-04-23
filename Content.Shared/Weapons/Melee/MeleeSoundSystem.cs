@@ -49,18 +49,12 @@ public sealed class MeleeSoundSystem : EntitySystem
             // If it took damage AND it is a living creature (Mob)
             if (damageType != null && HasComp<MobStateComponent>(targetUid))
             {
-                if (weaponComponent.HitSound != null)
-                {
-                    _audio.PlayPredicted(weaponComponent.HitSound, coords, userUid, weaponComponent.HitSound.Params.WithVariation(DamagePitchVariation));
-                }
+                _audio.PlayPredicted(weaponComponent.HitSound, coords, userUid, weaponComponent.HitSound?.Params.WithVariation(DamagePitchVariation));            
             }
             // Otherwise (It took 0 damage OR it is a destructible object like a wall/window)
             else
             {
-                if (weaponComponent.NoDamageSound != null)
-                {
-                    _audio.PlayPredicted(weaponComponent.NoDamageSound, coords, userUid, weaponComponent.NoDamageSound.Params.WithVariation(DamagePitchVariation));
-                }
+                _audio.PlayPredicted(weaponComponent.NoDamageSound, coords, userUid, weaponComponent.NoDamageSound?.Params.WithVariation(DamagePitchVariation));            
             }
             return; 
         }
