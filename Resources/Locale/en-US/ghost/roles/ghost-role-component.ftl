@@ -194,6 +194,10 @@ ghost-role-information-loneop-name = Lone Operative
 ghost-role-information-loneop-description = You are a lone nuclear operative. Destroy the station!
 ghost-role-information-loneop-rules = You are a [color={role-type-team-antagonist-color}][bold]{role-type-solo-antagonist-name}[/bold][/color]. Covert syndicate agents are not guaranteed to help you.
 
+ghost-role-information-hecu-name = HECU Grunt
+ghost-role-information-hecu-description = You are an HECU Grunt. Cover up the Resonance Cascade. Eliminate all government employees.
+ghost-role-information-hecu-rules = You are an antagonist, work with other HECU and eliminate all Black Mesa employees.
+
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = You are an antagonist, bring death and honks to those who do not follow the honkmother.
 

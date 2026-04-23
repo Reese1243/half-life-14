@@ -1,0 +1,23 @@
+- type: antag
+  id: Hecu
+  name: roles-antag-hecu-name
+  antagonist: true
+  setPreference: false
+  objective: roles-antag-hecu-objective
+
+# Default HECU gear
+- type: startingGear
+  id: HecuGruntGear
+  equipment:
+    jumpsuit: ClothingUniformHecuGrunt
+    back: ClothingBackpackHecu
+    mask: ClothingMaskHecuGasMask
+    head: ClothingHeadHelmetHecuGrunt
+    eyes: ClothingEyesHecuGoggles
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasic
+    shoes: ClothingShoesBootsCombatFilled
+    id: CentcomPDA
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltHecuWebbing
+
