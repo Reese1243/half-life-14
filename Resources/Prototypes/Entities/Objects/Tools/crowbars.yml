@@ -13,11 +13,20 @@
     - Crowbar
   - type: MeleeWeapon
     wideAnimationRotation: -135
+    forceWeaponSounds: true # Bypasses all target sounds!
     damage:
       types:
-        Blunt: 8
+        Blunt: 4    
+    attackRate: 2
+    # Swinging at thin air
+    soundSwing:
+      path: /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_miss1.ogg
+    # Dealing >0 damage to a person/object
     soundHit:
-      collection: MetalThud
+      collection: CrowbarHit   
+    # Dealing 0 damage, hitting a wall/armor
+    soundNoDamage:
+      collection: CrowbarNoDamage
   - type: Tool
     qualities:
       - Prying
