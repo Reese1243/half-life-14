@@ -27,3 +27,16 @@
   id: GlassSmash
   files:
   - /Audio/Effects/glass_smash.ogg
+
+- type: soundCollection
+  id: CrowbarHit
+  files:
+  - /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_hitbod1.ogg
+  - /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_hitbod2.ogg
+  - /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_hitbod3.ogg
+
+- type: soundCollection
+  id: CrowbarNoDamage
+  files:
+  - /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_hit1.ogg
+  - /Audio/Weapons/MesaStationWeapons/Crowbar/cbar_hit2.ogg

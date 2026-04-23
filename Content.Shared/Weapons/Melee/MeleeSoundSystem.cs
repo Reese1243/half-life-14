@@ -2,6 +2,7 @@ using Content.Shared.Weapons.Melee.Components;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Content.Shared.Mobs.Components;
 
 namespace Content.Shared.Weapons.Melee;
 
@@ -43,6 +44,26 @@ public sealed class MeleeSoundSystem : EntitySystem
 
         // hitting can obv destroy an entity so we play at coords and not following them
         var coords = Transform(targetUid).Coordinates;
+        if (weaponComponent.ForceWeaponSounds)
+        {
+            // If it took damage AND it is a living creature (Mob)
+            if (damageType != null && HasComp<MobStateComponent>(targetUid))
+            {
+                if (weaponComponent.HitSound != null)
+                {
+                    _audio.PlayPredicted(weaponComponent.HitSound, coords, userUid, weaponComponent.HitSound.Params.WithVariation(DamagePitchVariation));
+                }
+            }
+            // Otherwise (It took 0 damage OR it is a destructible object like a wall/window)
+            else
+            {
+                if (weaponComponent.NoDamageSound != null)
+                {
+                    _audio.PlayPredicted(weaponComponent.NoDamageSound, coords, userUid, weaponComponent.NoDamageSound.Params.WithVariation(DamagePitchVariation));
+                }
+            }
+            return; 
+        }
         // Play sound based off of highest damage type.
         if (TryComp<MeleeSoundComponent>(targetUid, out var damageSoundComp))
         {
