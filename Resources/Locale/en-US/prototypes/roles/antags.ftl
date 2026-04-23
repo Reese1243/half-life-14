@@ -49,3 +49,6 @@ roles-antag-mothership-core-objective = Use your xenoborgs to create even more x
 
 roles-antag-xenoborg-name = Xenoborg
 roles-antag-xenoborg-objective = Help the mothership create more xenoborgs.
+
+roles-antag-hecu-name = HECU Grunt
+roles-antag-hecu-objective = Eliminate all government employees of Black Mesa. The cover up must succeed.

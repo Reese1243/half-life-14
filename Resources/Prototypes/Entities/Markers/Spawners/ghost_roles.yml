@@ -196,6 +196,24 @@
       state: icon
 
 - type: entity
+  categories: [ Spawner ]
+  parent: BaseAntagSpawner
+  id: SpawnPointGhostHecuGrunt
+  components:
+    - type: GhostRole
+      name: ghost-role-information-hecu-name
+      description: ghost-role-information-hecu-description
+      rules: ghost-role-information-hecu-rules
+      mindRoles:
+        - MindRoleHecu
+      raffle:
+        settings: default
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+      - state: green
+
+- type: entity
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
   id: SpawnPointGhostParadoxClone

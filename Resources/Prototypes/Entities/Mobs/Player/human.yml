@@ -1,3 +1,36 @@
+# HECU
+- type: entity
+  parent: MobHuman
+  id: MobHumanHecuGrunt
+  name: HECU grunt
+  suffix: Human, Base
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: Loadout
+    prototypes: [HecuGruntGear]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+  - type: RandomMetadata
+    nameSegments: [NamesDeathCommando]
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+
+- type: entity
+  parent: MobHumanHecuGrunt
+  id: MobHumanHecuGruntGhostRole
+  suffix: Ghost role
+  components:
+  - type: GhostRole
+    name: ghost-role-information-hecu-name
+    description: ghost-role-information-hecu-description
+    rules: ghost-role-information-hecu-rules
+    raffle:
+      settings: default
+    reregister: false
+  - type: GhostTakeoverAvailable
+
+
 #Syndie
 - type: entity
   parent: MobHuman

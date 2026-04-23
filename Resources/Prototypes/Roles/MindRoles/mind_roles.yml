@@ -205,6 +205,19 @@
   - type: MindRole
     roleType: SoloAntagonist
 
+# HECU
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleHecu
+  name: HECU Grunt Role
+  components:
+  - type: MindRole
+    roleType: TeamAntagonist
+    subtype: role-subtype-hecu
+    exclusiveAntag: true
+    antagPrototype: Hecu
+  - type: HecuRole
+
 # Revolutionaries
 - type: entity
   parent: BaseMindRoleAntag
