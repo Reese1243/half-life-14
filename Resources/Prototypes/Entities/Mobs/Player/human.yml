@@ -27,7 +27,7 @@
     rules: ghost-role-information-hecu-rules
     raffle:
       settings: default
-      reregister: false
+    reregister: false
   - type: GhostTakeoverAvailable
 
 

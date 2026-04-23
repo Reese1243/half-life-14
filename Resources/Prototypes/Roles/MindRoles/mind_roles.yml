@@ -213,7 +213,7 @@
   components:
   - type: MindRole
     roleType: TeamAntagonist
-    subType: role-subtype-hecu
+    subtype: role-subtype-hecu
     exclusiveAntag: true
     antagPrototype: Hecu
   - type: HecuRole
