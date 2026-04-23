@@ -13,6 +13,10 @@ namespace Content.Shared.Weapons.Melee;
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState(fieldDeltas: true), AutoGenerateComponentPause]
 public sealed partial class MeleeWeaponComponent : Component
 {
+
+    //Override weapon sounds, "you left this in black mesa!"
+    [DataField("forceWeaponSounds")]
+    public bool ForceWeaponSounds = false;
     // TODO: This is becoming bloated as shit.
     // This should just be its own component for alt attacks.
     /// <summary>
