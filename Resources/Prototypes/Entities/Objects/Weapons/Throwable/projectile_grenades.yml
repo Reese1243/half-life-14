@@ -103,7 +103,7 @@
     keysIn:
     - timer
     sound:
-      path: "/Audio/Weapons/MesaStationWeapons/Impacts_Explosions/explode2.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/Impacts_Explosions/explode4.ogg"
     positional: true
   - type: StaticPrice
     price: 1500
