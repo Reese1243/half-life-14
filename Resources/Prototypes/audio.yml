@@ -111,19 +111,15 @@
 - type: soundCollection
   id: AmbienceGeneral
   files:
-    - /Audio/Ambience/ambigen1.ogg
-    - /Audio/Ambience/ambigen3.ogg
-    - /Audio/Ambience/ambigen4.ogg
-    - /Audio/Ambience/ambigen5.ogg
-    - /Audio/Ambience/ambigen6.ogg
-    - /Audio/Ambience/ambigen7.ogg
-    - /Audio/Ambience/ambigen8.ogg
-    - /Audio/Ambience/ambigen9.ogg
-    - /Audio/Ambience/ambigen10.ogg
-    - /Audio/Ambience/ambigen11.ogg
-    - /Audio/Ambience/ambigen12.ogg
-    - /Audio/Ambience/ambigen14.ogg
-    - /Audio/Ambience/ambigen15.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/boomer.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/computalk1.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/computalk2.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial1.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial2.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial3.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial4.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/techamb1.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/techamb2.ogg
 
 - type: soundCollection
   id: AmbienceHoly

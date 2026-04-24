@@ -15,7 +15,7 @@
     canCreateVacuum: false
   - type: TimerTrigger
     beepSound:
-      path: "/Audio/Effects/beep1.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep1.ogg"
       params:
         volume: 5
     initialBeepDelay: 0
@@ -37,7 +37,7 @@
     keysIn:
     - timer
     sound:
-      path: "/Audio/Effects/flash_bang.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/CS_1.6/Flashbang/flashbang-1.ogg"
     positional: true
   - type: DeleteOnTrigger
     keysIn:
@@ -50,7 +50,7 @@
   - type: Appearance
   - type: TimerTriggerVisuals
     primingSound:
-      path: /Audio/Effects/countdown.ogg
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep_countdown.ogg
   - type: GuideHelp
     guides:
     - Security
@@ -314,7 +314,7 @@
   - type: Appearance
   - type: TimerTriggerVisuals
     primingSound:
-      path: /Audio/Effects/countdown.ogg
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep_countdown.ogg
 
 - type: entity
   name: modular grenade
@@ -439,7 +439,7 @@
   - type: Appearance
   - type: TimerTriggerVisuals
     primingSound:
-      path: /Audio/Effects/countdown.ogg
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep_countdown.ogg
 
 - type: entity
   name: syndicate trickybomb
