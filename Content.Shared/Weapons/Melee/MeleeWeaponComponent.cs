@@ -144,7 +144,7 @@ public sealed partial class MeleeWeaponComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("soundSwing"), AutoNetworkedField]
-    public SoundSpecifier SwingSound { get; set; } = new SoundPathSpecifier("/Audio/Weapons/punchmiss.ogg")
+    public SoundSpecifier SwingSound { get; set; } = new SoundPathSpecifier("/Audio/Weapons/MesaStationWeapons/Crowbar/cbar_miss1.ogg")
     {
         Params = AudioParams.Default.WithVolume(-3f).WithVariation(0.025f),
     };

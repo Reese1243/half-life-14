@@ -60,7 +60,7 @@
     keysIn:
     - timer
     sound:
-      path: "/Audio/Effects/flash_bang.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/CS_1.6/Flashbang/flashbang-1.ogg"
     positional: true
   - type: SpawnOnTrigger
     keysIn:
@@ -74,7 +74,7 @@
     delay: 3.5
   - type: TimerTriggerVisuals
     primingSound:
-      path: /Audio/Effects/countdown.ogg
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep_countdown.ogg
 
 - type: entity
   parent: [FragileGrenadeBase, ProjectileGrenadeBase, BaseSyndicateContraband]
@@ -93,7 +93,7 @@
   - type: TriggerOnUse
   - type: TimerTrigger
     beepSound:
-      path: "/Audio/Effects/beep1.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep1.ogg"
       params:
         volume: 5
     initialBeepDelay: 0
@@ -103,7 +103,7 @@
     keysIn:
     - timer
     sound:
-      path: "/Audio/Weapons/Guns/Gunshots/batrifle.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/Impacts_Explosions/explode4.ogg"
     positional: true
   - type: StaticPrice
     price: 1500
@@ -125,7 +125,7 @@
   - type: TriggerOnUse
   - type: TimerTrigger
     beepSound:
-      path: "/Audio/Effects/beep1.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/CS_1.6/C4/c4_beep1.ogg"
       params:
         volume: 5
     initialBeepDelay: 0
@@ -135,7 +135,7 @@
     keysIn:
     - timer
     sound:
-      path: "/Audio/Weapons/Guns/Gunshots/batrifle.ogg"
+      path: "/Audio/Weapons/MesaStationWeapons/Impacts_Explosions/explode3.ogg"
     positional: true
   - type: StaticPrice
     price: 1500
