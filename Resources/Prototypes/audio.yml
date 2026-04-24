@@ -119,7 +119,7 @@
     - /Audio/Ambience/MesaStationAmbience/Facility/industrial3.ogg
     - /Audio/Ambience/MesaStationAmbience/Facility/industrial4.ogg
     - /Audio/Ambience/MesaStationAmbience/Facility/techamb1.ogg
-    - /Audio/Ambience/MesaStationAmbience/Facility/techchamb2.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/techamb2.ogg
 
 - type: soundCollection
   id: AmbienceHoly
