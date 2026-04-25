@@ -4,10 +4,7 @@
   antagonist: true
   setPreference: false
   objective: roles-antag-hecu-objective
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
+
 
 # Default HECU gear
 - type: startingGear
