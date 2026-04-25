@@ -5,6 +5,7 @@
   setPreference: false
   objective: roles-antag-hecu-objective
 
+
 # Default HECU gear
 - type: startingGear
   id: HecuGruntGear
@@ -17,7 +18,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasic
     shoes: ClothingShoesBootsCombatFilled
-    id: CentcomPDA
-    ears: ClothingHeadsetCentCom
+    id: HecuIDCard
+    ears: ClothingHeadsetHecu
     belt: ClothingBeltHecuWebbing
 

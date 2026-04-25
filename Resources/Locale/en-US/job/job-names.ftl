@@ -70,6 +70,7 @@ job-name-syndicate-operative = Syndicate Operative
 job-name-pirate = Pirate
 job-name-wizard = Wizard
 job-name-zombie = Zombie
+job-name-hecu-grunt = HECU Grunt
 
 # Job titles
 job-title-cluwne = Cluwne
