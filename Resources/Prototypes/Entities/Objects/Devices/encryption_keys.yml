@@ -30,6 +30,21 @@
     - EncryptionCommon
 
 - type: entity
+  parent: [ EncryptionKey, BaseSecurityLawyerContraband]
+  id: EncryptionKeyHecu
+  name: Marine Encryption Key
+  description: An encryption key used by the Hazardous Environment Combat Unit
+  components:
+  - type: EncryptionKey
+    channels:
+    - HECU
+    defaultChannel: HECU
+  - type: Sprite
+    layers:
+    - state: crypt_green
+    - state: hecu_label
+
+- type: entity
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyCargo
   name: cargo encryption key

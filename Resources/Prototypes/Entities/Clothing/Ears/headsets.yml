@@ -29,6 +29,22 @@
 
 - type: entity
   parent: ClothingHeadset
+  id: ClothingHeadsetHecu
+  name: HECU over-ear headset
+  description: A combat-issue marine radio headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyHecu
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/hecu.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/hecu.rsi
+
+- type: entity
+  parent: ClothingHeadset
   id: ClothingHeadsetGrey
   name: passenger headset
   components:
