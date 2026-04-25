@@ -4,6 +4,10 @@
   antagonist: true
   setPreference: false
   objective: roles-antag-hecu-objective
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
 
 # Default HECU gear
 - type: startingGear
@@ -17,7 +21,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasic
     shoes: ClothingShoesBootsCombatFilled
-    id: CentcomPDA
+    id: HecuIDCard
     ears: ClothingHeadsetHecu
     belt: ClothingBeltHecuWebbing
 

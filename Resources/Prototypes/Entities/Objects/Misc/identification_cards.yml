@@ -1110,6 +1110,27 @@
   - type: IdCard
     jobIcon: JobIconWizard
 
+#HECU
+
+- type: entity
+  parent: IDCardStandard
+  id: HecuIDCard
+  name: Marine ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Hecu
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuGrunt
+
 #ERT/Centcomm
 
 - type: entity

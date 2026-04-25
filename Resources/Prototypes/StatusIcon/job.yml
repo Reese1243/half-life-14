@@ -23,6 +23,16 @@
     state: ShaftMiner
   jobName: job-name-salvagespec
 
+# HECU
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuGrunt
+  icon:
+    sprite: *icon-rsi
+    state: Hecu
+  jobName: job-name-hecu-grunt
+
 # Command
 
 - type: jobIcon

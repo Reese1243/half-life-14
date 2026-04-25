@@ -104,6 +104,17 @@
         },
         {
             "name": "wizard"
+        },
+        {
+            "name": "hecu"
+        },
+        {
+            "name": "hecu-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "hecu-inhand-right",
+            "directions": 4
         }
     ]
 }
