@@ -33,6 +33,22 @@
     state: Hecu
   jobName: job-name-hecu-grunt
 
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuCorpsman
+  icon:
+    sprite: *icon-rsi
+    state: HecuCorpsman
+  jobName: job-name-hecu-corpsman
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuEngineer
+  icon:
+    sprite: *icon-rsi
+    state: HecuEngineer
+  jobName: job-name-hecu-engineer
+
 # Command
 
 - type: jobIcon

@@ -71,6 +71,8 @@ job-name-pirate = Pirate
 job-name-wizard = Wizard
 job-name-zombie = Zombie
 job-name-hecu-grunt = HECU Grunt
+job-name-hecu-corpsman = HECU Corpsman
+job-name-hecu-engineer = HECU Engineer
 
 # Job titles
 job-title-cluwne = Cluwne

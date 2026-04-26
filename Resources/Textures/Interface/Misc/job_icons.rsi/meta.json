@@ -243,6 +243,12 @@
         },
         {
             "name": "Hecu"
+        },
+        {
+            "name": "HecuCorpsman"
+        },
+        {
+            "name": "HecuEngineer"
         }
     ]
 }

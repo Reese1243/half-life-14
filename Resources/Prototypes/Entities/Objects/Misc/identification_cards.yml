@@ -1131,6 +1131,44 @@
   - type: IdCard
     jobIcon: JobIconHecuGrunt
 
+- type: entity
+  parent: IDCardStandard
+  id: HecuCorpsmanIDCard
+  name: Marine Corpsman ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: HecuCorpsman
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuCorpsman
+
+- type: entity
+  parent: IDCardStandard
+  id: HecuEngineerIDCard
+  name: Marine Engineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: HecuEngineer
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuEngineer
+
 #ERT/Centcomm
 
 - type: entity
