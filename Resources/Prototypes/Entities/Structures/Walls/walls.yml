@@ -1763,3 +1763,109 @@
   - type: Occluder
   - type: BlockWeather
   - type: SunShadowCast
+
+# Mesa Station Walls
+
+- type: entity
+  parent: BaseWall
+  id: BrickOfficeWall
+  name: Office Brick Wall
+  description: Dated brick walls fit for any office.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/MesaStation/brick_office.rsi
+  - type: Icon
+    sprite: Structures/Walls/MesaStation/brick_office.rsi
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+    fx: EffectRCDDeconstruct8
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: officebricks
+    base: brick_office
+
+- type: entity
+  parent: BaseWall
+  id: ConcreteLabWall
+  name: Lab Concrete Wall
+  description: Worn concrete wall. Keeps the science in and the snarks out, hopefully.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/MesaStation/concrete_lab.rsi
+  - type: Icon
+    sprite: Structures/Walls/MesaStation/concrete_lab.rsi
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+    fx: EffectRCDDeconstruct8
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: labconcrete
+    base: concrete_lab
+
+- type: entity
+  parent: BaseWall
+  id: MetalLabWall
+  name: Lab Metal Wall
+  description: Tarnished metal wall. Keeps the science in and the snarks out, hopefully.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/MesaStation/metal_lab.rsi
+  - type: Icon
+    sprite: Structures/Walls/MesaStation/metal_lab.rsi
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+    fx: EffectRCDDeconstruct8
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: labmetal
+    base: metal_lab
+
+- type: entity
+  parent: BaseWall
+  id: PlasterOfficeWall
+  name: Office Plaster Wall
+  description: Dated but clean plaster wall with a wooden trim. Perfect for any office or dorm room.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/MesaStation/plaster_office.rsi
+  - type: Icon
+    sprite: Structures/Walls/MesaStation/plaster_office.rsi
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+    fx: EffectRCDDeconstruct8
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: officeplaster
+    base: plaster_office

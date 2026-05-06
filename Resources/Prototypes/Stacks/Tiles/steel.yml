@@ -71,3 +71,57 @@
   id: FloorTileSteelHorizontalSlatsBordered
   name: stack-steel-horizontal-slats-tile-bordered
   spawn: FloorTileItemSteelHorizontalSlatsBordered
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor1
+  name: stack-mesa-metal-panel-floor-1
+  spawn: FloorTileItemMesaMetalPanelFloor1
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor2a
+  name: stack-mesa-metal-panel-floor-2a
+  spawn: FloorTileItemMesaMetalPanelFloor2a
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor2b
+  name: stack-mesa-metal-panel-floor-2b
+  spawn: FloorTileItemMesaMetalPanelFloor2b
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor3
+  name: stack-mesa-metal-panel-floor-3
+  spawn: FloorTileItemMesaMetalPanelFloor3
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor4
+  name: stack-mesa-metal-panel-floor-4
+  spawn: FloorTileItemMesaMetalPanelFloor4
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor5
+  name: stack-mesa-metal-panel-floor-5
+  spawn: FloorTileItemMesaMetalPanelFloor5
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor6
+  name: stack-mesa-metal-panel-floor-6
+  spawn: FloorTileItemMesaMetalPanelFloor6
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor7
+  name: stack-mesa-metal-panel-floor-7
+  spawn: FloorTileItemMesaMetalPanelFloor7
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaMetalPanelFloor8
+  name: stack-mesa-metal-panel-floor-8
+  spawn: FloorTileItemMesaMetalPanelFloor8

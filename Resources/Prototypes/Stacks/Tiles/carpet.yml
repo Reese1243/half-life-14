@@ -82,3 +82,10 @@
   name: stack-white-carpet-tile
   icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: carpet-white }
   spawn: FloorCarpetItemWhite
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaCarpetGreen
+  name: stack-mesa-carpet-green-tile
+  icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: floor_carpet01 }
+  spawn: FloorTileItemMesaCarpetGreen

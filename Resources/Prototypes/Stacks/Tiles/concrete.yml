@@ -71,3 +71,39 @@
   id: FloorTileIronsandConcreteSmooth
   name: stack-ironsand-concrete-smooth
   spawn: FloorTileItemIronsandConcreteSmooth
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaConcreteFloor1
+  name: stack-mesa-concrete-floor-1
+  spawn: FloorTileItemMesaConcreteFloor1
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaConcreteTile1
+  name: stack-mesa-concrete-tile-1
+  spawn: FloorTileItemMesaConcreteTile1
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaConcreteTile2
+  name: stack-mesa-concrete-tile-2
+  spawn: FloorTileItemMesaConcreteTile2
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaPlasticTileFloor1
+  name: stack-mesa-plastic-tile-floor-1
+  spawn: FloorTileItemMesaPlasticTileFloor1
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaCeramicTileFloor1
+  name: stack-mesa-ceramic-tile-floor-1
+  spawn: FloorTileItemMesaCeramicTileFloor1
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileMesaCeramicTileFloor2
+  name: stack-mesa-ceramic-tile-floor-2
+  spawn: FloorTileItemMesaCeramicTileFloor2
