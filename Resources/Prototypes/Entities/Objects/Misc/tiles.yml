@@ -2024,3 +2024,229 @@
     - FloorDarkSquiggly
   - type: Stack
     stackType: FloorTileDarkSquiggly
+
+# Mesa Station Tiles
+
+- type: entity
+  name: Mesa Green Carpet
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaCarpetGreen
+  components:
+  - type: Sprite
+    state: floor_carpet01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaCarpetGreen
+  - type: Stack
+    stackType: FloorTileMesaCarpetGreen
+
+- type: entity
+  name: Mesa Concrete Floor 1
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaConcreteFloor1
+  components:
+  - type: Sprite
+    state: floor_concrete01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaConcreteFloor1
+  - type: Stack
+    stackType: FloorTileMesaConcreteFloor1
+
+- type: entity
+  name: Mesa Concrete Tile 1
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaConcreteTile1
+  components:
+  - type: Sprite
+    state: floor_concretetile01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaConcreteTile1
+  - type: Stack
+    stackType: FloorTileMesaConcreteTile1
+
+- type: entity
+  name: Mesa Concrete Tile 2
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaConcreteTile2
+  components:
+  - type: Sprite
+    state: floor_concretetile02
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaConcreteTile2
+  - type: Stack
+    stackType: FloorTileMesaConcreteTile2
+
+- type: entity
+  name: Mesa Metal Panel Floor 1
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor1
+  components:
+  - type: Sprite
+    state: floor_metalpanel01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor1
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor1
+
+- type: entity
+  name: Mesa Metal Panel Floor 2a
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor2a
+  components:
+  - type: Sprite
+    state: floor_metalpanel02a
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor2a
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor2a
+
+- type: entity
+  name: Mesa Metal Panel Floor 2b
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor2b
+  components:
+  - type: Sprite
+    state: floor_metalpanel02b
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor2b
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor2b
+
+- type: entity
+  name: Mesa Metal Panel Floor 3
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor3
+  components:
+  - type: Sprite
+    state: floor_metalpanel03
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor3
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor3
+
+- type: entity
+  name: Mesa Metal Panel Floor 4
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor4
+  components:
+  - type: Sprite
+    state: floor_metalpanel04
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor4
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor4
+
+- type: entity
+  name: Mesa Metal Panel Floor 5
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor5
+  components:
+  - type: Sprite
+    state: floor_metalpanel05
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor5
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor5
+
+- type: entity
+  name: Mesa Metal Panel Floor 6
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor6
+  components:
+  - type: Sprite
+    state: floor_metalpanel06
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor6
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor6
+
+- type: entity
+  name: Mesa Metal Panel Floor 7
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor7
+  components:
+  - type: Sprite
+    state: floor_metalpanel07
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor7
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor7
+
+- type: entity
+  name: Mesa Metal Panel Floor 8
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaMetalPanelFloor8
+  components:
+  - type: Sprite
+    state: floor_metalpanel08
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaMetalPanelFloor8
+  - type: Stack
+    stackType: FloorTileMesaMetalPanelFloor8
+
+- type: entity
+  name: Mesa Plastic Tile Floor 1
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaPlasticTileFloor1
+  components:
+  - type: Sprite
+    state: floor_plastictile01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaPlasticTileFloor1
+  - type: Stack
+    stackType: FloorTileMesaPlasticTileFloor1
+
+- type: entity
+  name: Mesa Ceramic Tile Floor 1
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaCeramicTileFloor1
+  components:
+  - type: Sprite
+    state: floor_tile01
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaCeramicTileFloor1
+  - type: Stack
+    stackType: FloorTileMesaCeramicTileFloor1
+
+- type: entity
+  name: Mesa Ceramic Tile Floor 2
+  parent: FloorTileItemBase
+  id: FloorTileItemMesaCeramicTileFloor2
+  components:
+  - type: Sprite
+    state: floor_tile02
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorMesaCeramicTileFloor2
+  - type: Stack
+    stackType: FloorTileMesaCeramicTileFloor2

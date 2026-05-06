@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by Lux for Mesa Station fork of Space Station 14",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "full"
+      },
+      {
+        "name": "plaster_office0",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office1",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office2",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office3",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office4",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office5",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office6",
+        "directions": 4
+      },
+      {
+        "name": "plaster_office7",
+        "directions": 4
+      }
+    ]
+  }
