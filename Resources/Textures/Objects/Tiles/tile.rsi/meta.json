@@ -710,6 +710,54 @@
         {
             "name": "uranium-marble-inhand-right",
             "directions": 4
+        },
+        {
+            "name": "floor_carpet01"
+        },
+        {
+            "name": "floor_concrete01"
+        },
+        {
+            "name": "floor_concretetile01"
+        },
+        {
+            "name": "floor_concretetile02"
+        },
+        {
+            "name": "floor_metalpanel01"
+        },
+        {
+            "name": "floor_metalpanel02a"
+        },
+        {
+            "name": "floor_metalpanel02b"
+        },
+        {
+            "name": "floor_metalpanel03"
+        },
+        {
+            "name": "floor_metalpanel04"
+        },
+        {
+            "name": "floor_metalpanel05"
+        },
+        {
+            "name": "floor_metalpanel06"
+        },
+        {
+            "name": "floor_metalpanel07"
+        },
+        {
+            "name": "floor_metalpanel08"
+        },
+        {
+            "name": "floor_plastictile01"
+        },
+        {
+            "name": "floor_tile01"
+        },
+        {
+            "name": "floor_tile02"
         }
     ]
 }

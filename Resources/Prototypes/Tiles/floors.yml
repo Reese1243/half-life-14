@@ -2029,3 +2029,146 @@
     collection: FootstepTile
   friction: 0.8
   itemDrop: FloorTileItemUraniumMarble
+
+# Mesa Station Floors
+
+- type: tile
+  id: FloorMesaCarpetGreen
+  parent: BaseStationTile
+  name: tiles-mesa-green-carpet
+  sprite: /Textures/Tiles/floor_carpet01.png
+  footstepSounds:
+    collection: FootstepCarpet
+  barestepSounds:
+    collection: BarestepCarpet
+  friction: 1.25
+  itemDrop: FloorTileItemMesaCarpetGreen
+
+- type: tile
+  id: FloorMesaConcreteFloor1
+  parent: BaseStationTile
+  name: tiles-mesa-concrete-floor-1
+  sprite: /Textures/Tiles/floor_concrete01.png
+  itemDrop: FloorTileItemMesaConcreteFloor1
+
+- type: tile
+  id: FloorMesaConcreteTile1
+  parent: BaseStationTile
+  name: tiles-mesa-concrete-tile-1
+  sprite: /Textures/Tiles/floor_concretetile01.png
+  itemDrop: FloorTileItemMesaConcreteTile1
+
+- type: tile
+  id: FloorMesaConcreteTile2
+  parent: BaseStationTile
+  name: tiles-mesa-concrete-tile-2
+  sprite: /Textures/Tiles/floor_concretetile02.png
+  itemDrop: FloorTileItemMesaConcreteTile2
+
+- type: tile
+  id: FloorMesaMetalPanelFloor1
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-1
+  sprite: /Textures/Tiles/floor_metalpanel01.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor1
+
+- type: tile
+  id: FloorMesaMetalPanelFloor2a
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-2a
+  sprite: /Textures/Tiles/floor_metalpanel02a.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor2a
+
+- type: tile
+  id: FloorMesaMetalPanelFloor2b
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-2b
+  sprite: /Textures/Tiles/floor_metalpanel02b.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor2b
+
+- type: tile
+  id: FloorMesaMetalPanelFloor3
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-3
+  sprite: /Textures/Tiles/floor_metalpanel03.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor3
+
+- type: tile
+  id: FloorMesaMetalPanelFloor4
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-4
+  sprite: /Textures/Tiles/floor_metalpanel04.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor4
+
+- type: tile
+  id: FloorMesaMetalPanelFloor5
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-5
+  sprite: /Textures/Tiles/floor_metalpanel05.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor5
+
+- type: tile
+  id: FloorMesaMetalPanelFloor6
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-6
+  sprite: /Textures/Tiles/floor_metalpanel06.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor6
+
+- type: tile
+  id: FloorMesaMetalPanelFloor7
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-7
+  sprite: /Textures/Tiles/floor_metalpanel07.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor7
+
+- type: tile
+  id: FloorMesaMetalPanelFloor8
+  parent: BaseStationTile
+  name: tiles-mesa-metal-panel-floor-8
+  sprite: /Textures/Tiles/floor_metalpanel08.png
+  footstepSounds:
+    collection: FootstepCatwalk
+  itemDrop: FloorTileItemMesaMetalPanelFloor8
+
+- type: tile
+  id: FloorMesaPlasticTileFloor1
+  parent: BaseStationTile
+  name: tiles-mesa-plastic-tile-floor-1
+  sprite: /Textures/Tiles/floor_plastictile01.png
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemMesaPlasticTileFloor1
+
+- type: tile
+  id: FloorMesaCeramicTileFloor1
+  parent: BaseStationTile
+  name: tiles-mesa-ceramic-tile-floor-1
+  sprite: /Textures/Tiles/floor_tile01.png
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemMesaCeramicTileFloor1
+
+- type: tile
+  id: FloorMesaCeramicTileFloor2
+  parent: BaseStationTile
+  name: tiles-mesa-ceramic-tile-floor-2
+  sprite: /Textures/Tiles/floor_tile02.png
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemMesaCeramicTileFloor2
