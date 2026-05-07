@@ -904,6 +904,9 @@
   id: MagazinePistolSubMachineGun # WeaponSubMachineGunC20r, WeaponSubMachineGunDrozd, WeaponSubMachineGunAtreides
 
 - type: Tag
+  id: MagazinePistolSubMachineGunMp5 # WeaponSubMachineGunMp5
+
+- type: Tag
   id: MagazinePistolSubMachineGunTopMounted # WeaponSubMachineGunWt550
 
 - type: Tag

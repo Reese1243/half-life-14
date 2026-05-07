@@ -14,10 +14,12 @@
             "name": "mag-1"
         },
         {
-            "name": "inhand-left"
+            "name": "inhand-left-mag",
+            "directions": 4
         },
         {
-            "name": "inhand-right"
+            "name": "inhand-right-mag",
+            "directions": 4
         }
     ]
 }
