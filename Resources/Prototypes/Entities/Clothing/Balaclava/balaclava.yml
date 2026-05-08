@@ -1,0 +1,35 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingBalaclavaBase
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    slots: [balaclava]
+  - type: StaticPrice
+    price: 25
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+    - FacialHair
+
+
+- type: entity
+  parent: ClothingBalaclavaBase
+  id: ClothingHecuBalaclava
+  name: HECU balaclava
+  description: A standard issue HECU balaclava
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Clothing/Balaclava/hecubalaclava.rsi
+  - type: Clothing
+    sprite: Clothing/Balaclava/hecubalaclava.rsi
+

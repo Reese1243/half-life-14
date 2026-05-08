@@ -80,6 +80,8 @@
     whitelist:
       tags:
         - CartridgePistol
+    soundInsert:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/pl_shell1.ogg
     capacity: 30
   - type: Item
     size: Small
@@ -96,6 +98,36 @@
   - type: MagazineVisuals
     magState: mag
     steps: 6
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: [ BaseMagazinePistolSubMachineGun ]
+  id: MagazinePistolSubMachineGunMp5
+  name: MP5 magazine (9x19 parabellum)
+  description: The iconic curved magazine for the MaschinenPistole 5 that was Developed by Heckler & Koch.
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistolSubMachineGunMp5
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/mp5_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
     zeroVisible: false
   - type: Appearance
 

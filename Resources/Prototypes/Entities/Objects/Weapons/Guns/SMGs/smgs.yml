@@ -123,6 +123,68 @@
     price: 5000
 
 - type: entity
+  name: MP5 submachine gun
+  id: WeaponSubMachineGunMp5
+  parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
+  description: the MP5 or MaschinenPistole 5 is a full-auto submachine gun. It is popular among many police and counter-terror agencies around the world.
+  components:
+  - type: Gun
+    minAngle: 21
+    maxAngle: 32
+    fireRate: 6
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/MP5/hks2.ogg
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -16
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/SMGs/mp5.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/SMGs/mp5.rsi
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/MP5/mp5_slideback.ogg
+    soundBoltClosed:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/MP5/mp5_slideback.ogg
+    soundBoltOpened:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/MP5/mp5_slideback.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolSubMachineGunMp5
+        insertSound: /Audio/Weapons/MesaStationWeapons/CS_1.6/MP5/mp5_clipin.ogg
+        ejectSound: /Audio/Weapons/MesaStationWeapons/CS_1.6/MP5/mp5_clipout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolSubMachineGunMp5
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 5000
+
+- type: entity
   name: C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example
   id: WeaponSubMachineGunC20rROW
   parent: BaseItem
