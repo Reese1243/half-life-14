@@ -5,13 +5,16 @@
   name: HECU grunt
   suffix: Human, Base
   components:
-  - type: RandomHumanoidAppearance
-    randomizeName: false
   - type: Loadout
     prototypes: [HecuGruntGear]
-    roleLoadout: [ RoleSurvivalSyndicate ]
   - type: RandomMetadata
-    nameSegments: [NamesDeathCommando]
+    nameSegments:
+      - NamesMilitaryFirst
+      - NamesMilitaryLast
+    nameFormat: name-format-standard
+  - type: Grammar
+    attributes:
+      gender: male
   - type: NpcFactionMember
     factions:
     - NanoTrasen
