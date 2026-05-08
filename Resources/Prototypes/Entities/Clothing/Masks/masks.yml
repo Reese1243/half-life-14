@@ -209,26 +209,6 @@
     - Snout
 
 - type: entity
-  parent: ClothingMaskBase
-  id: ClothingHecuBalaclava
-  name: HECU balaclava
-  description: A standard issue HECU balaclava
-  components:
-  - type: Item
-    size: Tiny
-  - type: Sprite
-    sprite: Clothing/Mask/hecubalaclava.rsi
-  - type: Clothing
-    sprite: Clothing/Mask/hecubalaclava.rsi
-  - type: HideLayerClothing
-    slots:
-    - Snout
-    - Hair
-    - HeadTop
-    - HeadSide
-
-
-- type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskHecuGasMask
   name: HECU gas mask

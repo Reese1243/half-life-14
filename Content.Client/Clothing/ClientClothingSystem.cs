@@ -30,6 +30,7 @@ public sealed class ClientClothingSystem : ClothingSystem
     private static readonly Dictionary<string, string> TemporarySlotMap = new()
     {
         {"head", "HELMET"},
+        {"balaclava", "BALACLAVA"},
         {"eyes", "EYES"},
         {"ears", "EARS"},
         {"mask", "MASK"},
