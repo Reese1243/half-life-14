@@ -357,3 +357,13 @@
     sprite: Structures/Doors/Airlocks/Glass/xeno.rsi
   - type: Paintable
     group: null
+
+- type: entity
+  parent: Airlock
+  id: AirlockBlackMesaBasic
+  name: black mesa standard airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/MesaStation/basic.rsi
+  - type: Paintable
+    group: null
