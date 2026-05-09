@@ -1,3 +1,29 @@
+#MesaStation
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformHecuGrunt
+  name: HECU grunt uniform
+  description: A uniform for the HECU grunts, the expendable cannon fodder of the HECU forces.
+  components:
+      - type: Sprite
+        sprite: Clothing/Uniforms/Jumpsuit/hecugrunt.rsi
+      - type: Clothing
+        sprite: Clothing/Uniforms/Jumpsuit/hecugrunt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformBlackOpsAgent
+  name: BlackOps tactical turtleneck
+  description: A close fitting tactical turtleneck for only the most badass of operatives
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blackops.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blackops.rsi
+
+#SS14
+
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
@@ -827,17 +853,6 @@
     sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
   - type: StaticPrice
     price: 500
-
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformHecuGrunt
-  name: HECU grunt uniform
-  description: A uniform for the HECU grunts, the expendable cannon fodder of the HECU forces.
-  components:
-      - type: Sprite
-        sprite: Clothing/Uniforms/Jumpsuit/hecugrunt.rsi
-      - type: Clothing
-        sprite: Clothing/Uniforms/Jumpsuit/hecugrunt.rsi
 
 - type: entity
   parent: ClothingUniformBase

@@ -175,6 +175,17 @@
     sprite: Clothing/Belt/hecuwebbing.rsi
 
 - type: entity
+  parent: [ ClothingBeltStorageBase ]
+  id: ClothingBeltBlackOpsWebbing
+  name: BlackOps webbing
+  description: standard issue webbing for CIA BlackOps
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/blackopswebvest.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/blackopswebvest.rsi
+
+- type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSalvageWebbing
   name: salvage rig

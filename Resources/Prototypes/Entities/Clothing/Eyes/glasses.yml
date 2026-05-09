@@ -207,6 +207,19 @@
   - type: EyeProtection
 
 - type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: ClothingEyesBlackOpsNightVision
+  name: night vision goggles
+  description: A set of night vision goggles for covert operations in low-light environments
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/blackopsnvg.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/blackopsnvg.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesGlassesCommand
   name: administration glasses

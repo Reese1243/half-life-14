@@ -33,3 +33,16 @@
   - type: Clothing
     sprite: Clothing/Balaclava/hecubalaclava.rsi
 
+- type: entity
+  parent: ClothingBalaclavaBase
+  id: ClothingBalaclavaBlackOps
+  name: BlackOps balaclava
+  description: A standard issue balaclava for CIA BlackOps
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Clothing/Balaclava/blackopsbalaclava.rsi
+  - type: Clothing
+    sprite: Clothing/Balaclava/blackopsbalaclava.rsi
+

@@ -33,6 +33,26 @@
     tags:
     - WhitelistChameleon
 
+#MesaStation Armor
+- type: entity
+  parent: [ ClothingOuterArmorBase ]
+  id: ClothingOuterBlackOps
+  name: BlackOps bulletproof vest
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/blackops_armor.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/blackops_armor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.80
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+
 #Alternate / slim basic armor vest
 - type: entity
   parent: ClothingOuterArmorBasic
