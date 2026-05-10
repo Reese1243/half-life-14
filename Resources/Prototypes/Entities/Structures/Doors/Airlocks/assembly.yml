@@ -375,3 +375,13 @@
   - type: Sprite
     sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
     state: "assembly"
+
+#Mesa Station
+- type: entity
+  parent: BlackMesaAirlockAssembly
+  id: AirlockAssemblyBlackMesaStandard
+  suffix: Black Mesa, Basic
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/MesaStation/basic.rsi
+    state: "assembly"
