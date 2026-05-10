@@ -1310,6 +1310,6 @@
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronics ]
+      board: [ DoorElectronicsMaintenance ]
   - type: Sprite
     sprite: Structures/Doors/Airlocks/MesaStation/basic.rsi
