@@ -66,6 +66,7 @@
       whitelist:
         components:
         - FitsInDispenser
+        - BloodStream
       priority: 9
   - type: ItemSlots
   - type: ContainerContainer

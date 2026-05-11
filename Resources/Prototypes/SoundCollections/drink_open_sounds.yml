@@ -1,9 +1,7 @@
 - type: soundCollection
   id: canOpenSounds
   files:
-  - /Audio/Items/can_open1.ogg
-  - /Audio/Items/can_open2.ogg
-  - /Audio/Items/can_open3.ogg
+  - /Audio/MesaStationMobs/MobActions/Items/soda_open.ogg
 
 - type: soundCollection
   id: bottleOpenSounds

@@ -25,7 +25,7 @@
     params:
       variation: 0.25
       volume: -2
-    path: /Audio/Items/drink.ogg
+    path: /Audio/MesaStationMobs/MobActions/Items/drink.ogg
   message: edible-slurp
   otherMessage: edible-slurp-other
   verb: edible-verb-drink
