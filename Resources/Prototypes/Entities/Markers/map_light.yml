@@ -11,9 +11,22 @@
     radius: 10
     softness: 1
     offset: "0, -0.5"
+  - type: Sprite
+    layers:
+    - state: green
 
 - type: entity
   id: MapLight
   parent: MapLightBase
   description: standard light for outdoor areas.
+
+- type: entity
+  id: MapLightOutdoors
+  parent: MapLightBase
+  description: a bright light for outdoor areas
+  components:
+  - type: PointLight
+    radius: 25
+    energy: 2
+    softness: 1.5
 
