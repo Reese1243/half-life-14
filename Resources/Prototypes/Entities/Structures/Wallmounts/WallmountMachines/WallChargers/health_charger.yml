@@ -1,0 +1,42 @@
+- type: entity
+  parent: BaseWallmountMachine
+  id: WallmountHealthCharger
+  suffix: health charger
+  name: Health Charger
+  description: The alpha and omega of emergency medical attention. Mounted on the wall for easy access, this device can rapidly restore a person's health in a pinch. Must be refilled when empty.
+  components:
+  - type: Sprite
+    sprite: MesaStationMachines/healthcharger.rsi
+    layers:
+      - map: ["chargerLayerOn"]
+        state: healthchargeron
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+  - type: Clickable
+  - type: PointLight
+    radius: 2
+    energy: 5
+    color: "#FF0000"
+  - type: SolutionContainerManager
+    solutions:
+      charger:
+        maxVol: 100
+        reagents:
+        - ReagentId: Tricordrazine
+          Quantity: 100
+  - type: Injector
+    needHand: False
+    solution: charger
+    transferAmount: 10
+    activeModeProtoId: HyposprayInjectMode
+    allowedModes:
+    - HyposprayInjectMode
