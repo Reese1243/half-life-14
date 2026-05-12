@@ -34,9 +34,13 @@
         - ReagentId: Tricordrazine
           Quantity: 100
   - type: Injector
+    isCharger: true
     needHand: False
-    solution: charger
-    transferAmount: 10
-    activeModeProtoId: HyposprayInjectMode
+    currentTransferAmount: 2.5
+    solutionName: charger
+    activeModeProtoId: HealthChargerInjectMode
     allowedModes:
-    - HyposprayInjectMode
+    - HealthChargerInjectMode
+  - type: ExaminableSolution
+    solution: charger
+

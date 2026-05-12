@@ -45,7 +45,8 @@ public sealed partial class InjectorSystem : EntitySystem
 
     public override void Initialize()
     {
-        SubscribeLocalEvent<InjectorComponent, UseInHandEvent>(OnInjectorUse);
+        SubscribeLocalEvent<InjectorComponent, UseInHandEvent>(OnInjectorUseHand);
+        SubscribeLocalEvent<InjectorComponent, ActivateInWorldEvent>(OnInjectorUseWorld);
         SubscribeLocalEvent<InjectorComponent, AfterInteractEvent>(OnInjectorAfterInteract);
         SubscribeLocalEvent<InjectorComponent, InjectorDoAfterEvent>(OnInjectDoAfter);
         SubscribeLocalEvent<InjectorComponent, MeleeHitEvent>(OnAttack);
@@ -53,7 +54,7 @@ public sealed partial class InjectorSystem : EntitySystem
     }
 
     #region Events Handling
-    private void OnInjectorUse(Entity<InjectorComponent> injector, ref UseInHandEvent args)
+    private void OnInjectorUseHand(Entity<InjectorComponent> injector, ref UseInHandEvent args)
     {
         if (args.Handled
             || !_prototypeManager.Resolve(injector.Comp.ActiveModeProtoId, out var activeProto))
@@ -66,6 +67,32 @@ public sealed partial class InjectorSystem : EntitySystem
 
         args.Handled = true;
         args.ApplyDelay = false;
+    }
+
+    private void OnInjectorUseWorld(Entity<InjectorComponent> injector, ref ActivateInWorldEvent args)
+    {
+        if (injector.Comp.IsCharger == true)
+        {
+            if (args.Handled || !_prototypeManager.Resolve(injector.Comp.ActiveModeProtoId, out var activeProto))
+            {
+                return;
+            }
+
+            if (activeProto.InjectOnUse) // Injectors that can't toggle transferAmounts will be used.
+            {
+                TryMobsDoAfter(injector, args.User, args.User);
+            }
+            else // Syringes toggle Draw/Inject.
+            {
+                ToggleMode(injector, args.User);
+            }
+            args.Handled = true;
+        }
+        else
+        {
+            return;
+        }
+        args.Handled = true;
     }
 
     private void OnInjectorAfterInteract(Entity<InjectorComponent> injector, ref AfterInteractEvent args)

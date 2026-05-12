@@ -72,6 +72,12 @@ public sealed partial class InjectorComponent : Component
     [DataField]
     public bool IgnoreClosed = true;
 
+    /// </summary>
+    /// Checks if the injector is a charger.
+    /// most injectors are not chargers by default.
+    [DataField]
+    public bool IsCharger = false;
+
     /// <summary>
     /// Reagents that are allowed to be within this injector.
     /// If a solution has both allowed and non-allowed reagents, only allowed reagents will be drawn into this injector.
