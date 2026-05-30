@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by Lux for Mesa Station fork of Space Station 14",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "full"
+      },
+      {
+        "name": "tiled_bathroom0",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom1",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom2",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom3",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom4",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom5",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom6",
+        "directions": 4
+      },
+      {
+        "name": "tiled_bathroom7",
+        "directions": 4
+      }
+    ]
+  }

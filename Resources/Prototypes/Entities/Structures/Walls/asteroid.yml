@@ -2545,3 +2545,80 @@
       state: rock_andesite_west
     - state: rock_salt
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+
+# Mesa Station Rock Walls
+
+- type: entity
+  id: WallRockMesaIndestructible
+  parent: BaseWall
+  description: A sturdy rock wall that seems impervious to damage.
+  name: rock mesa
+  suffix: planetmap, indestructible
+  components:
+  - type: Transform
+    noRot: true
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
+  - type: Icon
+    sprite: Structures/Walls/rock.rsi
+    state: rock_mesa
+  - type: SmoothEdge
+  - type: Sprite
+    sprite: Structures/Walls/rock.rsi
+    layers:
+    - state: rock_mesa
+    - map: [ "enum.EdgeLayer.South" ]
+      state: rock_mesa_south
+    - map: [ "enum.EdgeLayer.East" ]
+      state: rock_mesa_east
+    - map: [ "enum.EdgeLayer.North" ]
+      state: rock_mesa_north
+    - map: [ "enum.EdgeLayer.West" ]
+      state: rock_mesa_west
+
+- type: entity
+  id: WallRockMesa
+  parent: BaseWall
+  description: A sturdy rock wall that can be mined.
+  name: rock mesa
+  suffix: planetmap
+  components:
+  - type: Transform
+    noRot: true
+  - type: SoundOnGather
+  - type: Gatherable
+    toolWhitelist:
+      tags:
+      - Pickaxe
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
+  - type: Icon
+    sprite: Structures/Walls/rock.rsi
+    state: rock_mesa
+  - type: MiningScannerViewable
+  - type: SmoothEdge
+  - type: Sprite
+    sprite: Structures/Walls/rock.rsi
+    layers:
+    - state: rock_mesa
+    - map: [ "enum.EdgeLayer.South" ]
+      state: rock_mesa_south
+    - map: [ "enum.EdgeLayer.East" ]
+      state: rock_mesa_east
+    - map: [ "enum.EdgeLayer.North" ]
+      state: rock_mesa_north
+    - map: [ "enum.EdgeLayer.West" ]
+      state: rock_mesa_west

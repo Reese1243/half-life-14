@@ -24,6 +24,7 @@
   - FloorDirt
   - PlatingRCD
   - FloorHullReinforced
+  - FloorDesertMesa
 
 - type: tile
   id: FloorSteel

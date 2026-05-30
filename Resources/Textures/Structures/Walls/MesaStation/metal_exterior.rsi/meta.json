@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by Lux for Mesa Station fork of Space Station 14",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "full"
+      },
+      {
+        "name": "metal_exterior0",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior1",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior2",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior3",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior4",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior5",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior6",
+        "directions": 4
+      },
+      {
+        "name": "metal_exterior7",
+        "directions": 4
+      }
+    ]
+  }
