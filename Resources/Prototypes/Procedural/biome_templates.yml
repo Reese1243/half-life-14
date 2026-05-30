@@ -594,3 +594,30 @@
     - !type:BiomeTileLayer
       threshold: -1.0
       tile: FloorAsteroidSand
+
+# Mesa Station Biomes
+
+- type: biomeTemplate
+  id: MesaDesert
+  layers:
+    - !type:BiomeEntityLayer
+      threshold: -0.20
+      noise:
+        seed: 0
+        frequency: 0.04
+        noiseType: Cellular
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      allowedTiles:
+        - FloorDesertMesa
+      entities:
+        - WallRockMesaIndestructible
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Fill layer
+    - !type:BiomeTileLayer
+      threshold: -1
+      tile: FloorDesertMesa

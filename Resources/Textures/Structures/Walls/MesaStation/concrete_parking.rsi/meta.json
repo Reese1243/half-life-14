@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by Lux for Mesa Station fork of Space Station 14",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "full"
+      },
+      {
+        "name": "concrete_parking0",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking1",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking2",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking3",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking4",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking5",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking6",
+        "directions": 4
+      },
+      {
+        "name": "concrete_parking7",
+        "directions": 4
+      }
+    ]
+  }

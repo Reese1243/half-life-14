@@ -139,3 +139,18 @@
     collection: FootstepSnow
 
 # Wasteland
+
+# Mesa Desert
+- type: tile
+  id: FloorDesertMesa
+  parent: BaseFloorPlanet
+  name: tiles-desert-mesa-floor
+  sprite: /Textures/Tiles/Planet/Desert/desert_mesa.png
+  variants: 6
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0

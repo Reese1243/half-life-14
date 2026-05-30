@@ -183,3 +183,4 @@ tiles-mesa-metal-panel-floor-5 = mesa metal panel floor 5
 tiles-mesa-metal-panel-floor-6 = mesa metal panel floor 6
 tiles-mesa-metal-panel-floor-7 = mesa metal panel floor 7
 tiles-mesa-metal-panel-floor-8 = mesa metal panel floor 8
+tiles-desert-mesa-floor = mesa desert floor

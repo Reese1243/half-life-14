@@ -426,3 +426,147 @@
         !type:DamageTrigger
         damage: 375
       behaviors: *IronstoneDestructionBehavior
+
+#Mesa Station Doors
+
+- type: entity
+  parent: BaseMaterialDoorNavMap
+  id: MesaMetalDoor1
+  name: mesa metal door 1
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/MesaStation/mesametaldoor1.rsi
+    snapCardinals: true
+  - type: Door
+    openSpriteState: open
+    closedSpriteState: closed
+    occludes: false
+    canPry: false
+    clickOpen: true
+    closeTimeOne: 0
+    closeTimeTwo: 0
+    openTimeOne: 0
+    openTimeTwo: 0
+    openingAnimationTime: 0
+    closingAnimationTime: 0
+    openSound:
+      path: /Audio/Effects/door_open.ogg
+    closeSound:
+      path: /Audio/Effects/door_close.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 3
+            max: 5
+  - type: Occluder
+    enabled: false
+
+- type: entity
+  parent: BaseMaterialDoorNavMap
+  id: MesaMetalDoor2
+  name: mesa metal door 2
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/MesaStation/mesametaldoor2.rsi
+    snapCardinals: true
+  - type: Door
+    openSpriteState: open
+    closedSpriteState: closed
+    occludes: false
+    canPry: false
+    clickOpen: true
+    closeTimeOne: 0
+    closeTimeTwo: 0
+    openTimeOne: 0
+    openTimeTwo: 0
+    openingAnimationTime: 0
+    closingAnimationTime: 0
+    openSound:
+      path: /Audio/Effects/door_open.ogg
+    closeSound:
+      path: /Audio/Effects/door_close.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 3
+            max: 5
+  - type: Occluder
+    enabled: false
+
+- type: entity
+  parent: BaseMaterialDoorNavMap
+  id: MesaWoodDoor1
+  name: mesa wooden door 1
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/MesaStation/mesawooddoor1.rsi
+    snapCardinals: true
+  - type: Door
+    openSpriteState: open
+    closedSpriteState: closed
+    occludes: true
+    clickOpen: true
+    closeTimeOne: 0
+    closeTimeTwo: 0
+    openTimeOne: 0
+    openTimeTwo: 0
+    openingAnimationTime: 0
+    closingAnimationTime: 0
+    openSound:
+      path: /Audio/Effects/door_open.ogg
+    closeSound:
+      path: /Audio/Effects/door_close.ogg
+  - type: Damageable
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger: *DamageTrigger150
+      behaviors: *OverkillBehavior
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 3
+            max: 5
