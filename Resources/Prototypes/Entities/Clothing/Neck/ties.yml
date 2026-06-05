@@ -54,3 +54,26 @@
     - Recyclable
     - HamsterWearable
     - WhitelistChameleon
+
+#Mesa Station Ties
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieBlackMesa
+  name: Black Mesa Scientist's Tie
+  description: Why do we all have to wear these ridiculous ties?
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Ties/bm_tie.rsi
+  - type: Clothing
+    sprite: Clothing/Neck/Ties/bm_tie.rsi
+  - type: Item
+    storedSprite:
+      state: storage
+      sprite: Clothing/Neck/Ties/bm_tie.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
