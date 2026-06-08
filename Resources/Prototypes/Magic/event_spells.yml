@@ -72,8 +72,6 @@
         orGroup: Guns
       - id: WeaponShotgunImprovised
         orGroup: Guns
-      - id: WeaponSubMachineGunAtreides
-        orGroup: Guns
       - id: WeaponSubMachineGunC20r
         orGroup: Guns
       - id: WeaponSubMachineGunDrozd
