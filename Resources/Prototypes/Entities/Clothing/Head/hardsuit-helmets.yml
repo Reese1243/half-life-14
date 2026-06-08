@@ -4,6 +4,19 @@
 #This is so people don't need to wear both regular, on-station helmets and hardsuits to get full protection.
 #Generally, unless you're adding something like caustic damage, you should probably avoid messing with armor here outside of the above scenario.
 
+#MesaStation hardsuits
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase ]
+  id: ClothingHeadHevMk4
+  name: HEV MK IV helmet
+  description: A helmet designed to protect the wearer from hazardous environments
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/hev_mk4.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/hev_mk4.rsi
+
 #CREW HARDSUITS
 #Atmospherics Hardsuit
 - type: entity

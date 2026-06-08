@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Created by mr.happyfaceremembersbetterdays (discord) for MesaStation",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "icon-flash"
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-OUTERCLOTHING",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-OUTERCLOTHING",
+            "directions": 4
+        }
+    ]
+}
