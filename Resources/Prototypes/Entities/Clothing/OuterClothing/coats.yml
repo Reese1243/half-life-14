@@ -491,3 +491,5 @@
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatExpensive]
   id: ClothingOuterCoatExpensiveOpened
   name: expensive coat
+
+
