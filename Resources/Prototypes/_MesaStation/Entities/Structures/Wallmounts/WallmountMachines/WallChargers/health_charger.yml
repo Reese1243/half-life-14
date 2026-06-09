@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseWallmountMachine
-  id: WallmountHealthCharger
+  id: WallmountChargerHealth
   suffix: health charger
   name: Health Charger
   description: The alpha and omega of emergency medical attention. Mounted on the wall for easy access, this device can rapidly restore a person's health in a pinch. Must be refilled when empty.
@@ -31,16 +31,15 @@
       charger:
         maxVol: 100
         reagents:
-        - ReagentId: Tricordrazine
+        - ReagentId: Grubjuice
           Quantity: 100
   - type: Injector
     isCharger: true
     needHand: False
-    currentTransferAmount: 2.5
+    currentTransferAmount: 3
     solutionName: charger
     activeModeProtoId: HealthChargerInjectMode
     allowedModes:
     - HealthChargerInjectMode
   - type: ExaminableSolution
     solution: charger
-
