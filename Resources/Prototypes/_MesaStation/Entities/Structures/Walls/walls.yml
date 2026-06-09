@@ -9,7 +9,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/brick_office.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/brick_office.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/brick_office.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -35,7 +35,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/concrete_lab.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/concrete_lab.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/concrete_lab.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -61,7 +61,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/metal_lab.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/metal_lab.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/metal_lab.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -87,7 +87,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/plaster_office.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/plaster_office.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/plaster_office.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -113,7 +113,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/brick_exterior.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/brick_exterior.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/brick_exterior.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -139,7 +139,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/brick_industrial.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/brick_industrial.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/brick_industrial.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -165,7 +165,7 @@
   - type: Sprite
     sprite: _MesaStation/Structures/Walls/MesaStation/concrete_parking.rsi
   - type: Icon
-    sprite: Structures/Walls/MesaStation/concrete_parking.rsi
+    sprite: _MesaStation/Structures/Walls/MesaStation/concrete_parking.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
