@@ -209,31 +209,6 @@
     - Snout
 
 - type: entity
-  parent: ClothingMaskPullableBase
-  id: ClothingMaskHecuGasMask
-  name: HECU gas mask
-  description: An HECU gas mask. Allows for long term operations in hazardous environments.
-  components:
-  - type: Item
-    size: Tiny
-  - type: Sprite
-    sprite: Clothing/Mask/hecugasmask.rsi
-  - type: Clothing
-    sprite: Clothing/Mask/hecugasmask.rsi
-  - type: BreathMask
-  - type: IngestionBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Radiation: 0.80
-  - type: HideLayerClothing
-    slots:
-    - Snout
-    - Hair
-    - HeadTop
-    - HeadSide
-
-- type: entity
   parent: [ClothingMaskClownBase, BaseFoldable]
   id: ClothingMaskClown
   description: A clown mask featuring a foldable wig; a true prankster's attire.

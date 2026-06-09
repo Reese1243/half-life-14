@@ -1,0 +1,16 @@
+#Mesa Station Misc
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterApronBMMedic
+  name: Black Mesa Medic Apron
+  description: Standard issue apron for Black Mesa medics. Useful for keeping the blood off your uniform.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/OuterClothing/Misc/bm_medicapron.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/OuterClothing/Misc/bm_medicapron.rsi
+  - type: Tag
+    tags:
+    - Apron
+    - WhitelistChameleon

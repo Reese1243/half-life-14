@@ -1,0 +1,23 @@
+#Mesa Station Hats
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBMMedic
+  name: Black Mesa Medic Hat
+  description: Standard issue hat for Black Mesa medics.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Head/Hats/bm_medichat.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Head/Hats/bm_medichat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBMSecCap
+  name: Black Mesa Security Cap
+  description: Standard issue cap for Black Mesa security personnel. Features a Black Mesa logo on the front.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Head/Hats/bm_seccap.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Head/Hats/bm_seccap.rsi

@@ -1,0 +1,43 @@
+#Mesa Station Helmets
+
+- type: entity
+  parent: [ ClothingHeadHelmetArmoredBase ]
+  id: ClothingHeadHelmetHecuGrunt
+  name: HECU combat helmet
+  description: A standard combat helmet issued to HECU marines.
+  components:
+    - type: Sprite
+      sprite: _MesaStation/Clothing/Head/Helmets/hecuhelmetgrunt.rsi
+    - type: Clothing
+      sprite: _MesaStation/Clothing/Head/Helmets/hecuhelmetgrunt.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.9
+          Slash: 0.9
+          Piercing: 0.9
+          Heat: 0.9
+    - type: HideLayerClothing
+      layers:
+        Hair: HEAD
+
+- type: entity
+  parent: [ ClothingHeadHelmetArmoredBase ]
+  id: ClothingHeadHelmetBMSecurity
+  name: Black Mesa Security Helmet
+  description: A standard defense helmet issued to Black Mesa Security personnel.
+  components:
+    - type: Sprite
+      sprite: _MesaStation/Clothing/Head/Helmets/bmsec_helmet.rsi
+    - type: Clothing
+      sprite: _MesaStation/Clothing/Head/Helmets/bmsec_helmet.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.9
+          Slash: 0.9
+          Piercing: 0.9
+          Heat: 0.9
+    - type: HideLayerClothing
+      layers:
+        Hair: HEAD

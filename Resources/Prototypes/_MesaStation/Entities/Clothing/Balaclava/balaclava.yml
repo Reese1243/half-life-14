@@ -19,7 +19,6 @@
     - HeadSide
     - FacialHair
 
-
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaHecu
@@ -29,9 +28,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Balaclava/hecubalaclava.rsi
+    sprite: _MesaStation/Clothing/Balaclava/hecubalaclava.rsi
   - type: Clothing
-    sprite: Clothing/Balaclava/hecubalaclava.rsi
+    sprite: _MesaStation/Clothing/Balaclava/hecubalaclava.rsi
 
 - type: entity
   parent: ClothingBalaclavaBase
@@ -42,7 +41,6 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Balaclava/blackopsbalaclava.rsi
+    sprite: _MesaStation/Clothing/Balaclava/blackopsbalaclava.rsi
   - type: Clothing
-    sprite: Clothing/Balaclava/blackopsbalaclava.rsi
-
+    sprite: _MesaStation/Clothing/Balaclava/blackopsbalaclava.rsi

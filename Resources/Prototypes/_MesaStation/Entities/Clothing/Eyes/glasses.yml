@@ -1,0 +1,25 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: ClothingEyesHecuGoggles
+  name: HECU goggles
+  description: An HECU heads-up display for fast target aquisition
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Eyes/Glasses/hecugoggles.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Eyes/Glasses/hecugoggles.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: ClothingEyesBlackOpsNightVision
+  name: night vision goggles
+  description: A set of night vision goggles for covert operations in low-light environments
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Eyes/Glasses/blackopsnvg.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Eyes/Glasses/blackopsnvg.rsi
+  - type: FlashImmunity
+  - type: EyeProtection

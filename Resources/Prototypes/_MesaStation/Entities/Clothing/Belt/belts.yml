@@ -1,0 +1,21 @@
+- type: entity
+  parent: [ ClothingBeltStorageBase ]
+  id: ClothingBeltHecuWebbing
+  name: HECU webbing
+  description: standard issue webbing for marines in the HECU
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Belt/hecuwebbing.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Belt/hecuwebbing.rsi
+
+- type: entity
+  parent: [ ClothingBeltStorageBase ]
+  id: ClothingBeltBlackOpsWebbing
+  name: BlackOps webbing
+  description: standard issue webbing for CIA BlackOps
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Belt/blackopswebvest.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Belt/blackopswebvest.rsi
