@@ -7305,7 +7305,7 @@ entities:
     - type: Transform
       pos: 32.5,10.5
       parent: 1
-- proto: WallmountHealthCharger
+- proto: WallmountChargerHealth
   entities:
   - uid: 3505
     components:
