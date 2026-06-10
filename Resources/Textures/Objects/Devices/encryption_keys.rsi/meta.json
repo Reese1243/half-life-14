@@ -36,8 +36,6 @@
     {"name": "service_label"},
     {"name": "synd_label"},
     {"name": "borg_label"},
-    {"name": "ai_label"},
-    {"name": "crypt_green"},
-    {"name": "hecu_label"}
+    {"name": "ai_label"}
   ]
 }

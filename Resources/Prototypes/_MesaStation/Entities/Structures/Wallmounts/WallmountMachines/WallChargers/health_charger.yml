@@ -6,7 +6,7 @@
   description: The alpha and omega of emergency medical attention. Mounted on the wall for easy access, this device can rapidly restore a person's health in a pinch. Must be refilled when empty.
   components:
   - type: Sprite
-    sprite: MesaStationMachines/healthcharger.rsi
+    sprite: _MesaStation/MesaStationMachines/healthcharger.rsi
     layers:
       - map: ["chargerLayerOn"]
         state: healthchargeron

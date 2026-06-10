@@ -1,0 +1,9 @@
+- type: entity
+  parent: Airlock
+  id: AirlockBlackMesaBasic
+  name: black mesa standard airlock
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Structures/Doors/Airlocks/MesaStation/basic.rsi
+  - type: Paintable
+    group: null
