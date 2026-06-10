@@ -1,0 +1,6 @@
+- type: radioChannel
+  id: HECU
+  name: chat-radio-hecu
+  keycode: '0'
+  color: '#0F9C07'
+  longRange: true

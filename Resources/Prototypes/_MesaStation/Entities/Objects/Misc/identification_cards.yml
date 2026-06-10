@@ -1,0 +1,75 @@
+#HECU
+
+- type: entity
+  parent: IDCardStandard
+  id: HecuIDCardBase
+  name: Marine ID card
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Misc/id_cards.rsi
+    layers:
+    - state: hecu
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuGrunt
+
+- type: entity
+  parent: HecuIDCardBase
+  id: HecuIDCard
+  name: Marine ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: &icon-rsi _MesaStation/Interface/Misc/job_icons.rsi
+      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+      state: Hecu
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuGrunt
+
+- type: entity
+  parent: HecuIDCardBase
+  id: HecuCorpsmanIDCard
+  name: Marine Corpsman ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: HecuCorpsman
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuCorpsman
+
+- type: entity
+  parent: HecuIDCardBase
+  id: HecuEngineerIDCard
+  name: Marine Engineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: hecu
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: HecuEngineer
+  - type: Access
+    tags:
+    - CentralCommand
+    groups:
+    - AllAccess
+  - type: IdCard
+    jobIcon: JobIconHecuEngineer

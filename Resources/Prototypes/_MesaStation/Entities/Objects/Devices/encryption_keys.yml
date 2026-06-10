@@ -1,0 +1,15 @@
+- type: entity
+  parent: [ EncryptionKey, BaseSecurityLawyerContraband]
+  id: EncryptionKeyHecu
+  name: Marine Encryption Key
+  description: An encryption key used by the Hazardous Environment Combat Unit
+  components:
+  - type: EncryptionKey
+    channels:
+    - HECU
+    defaultChannel: HECU
+  - type: Sprite
+    sprite: _MesaStation/Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_green
+    - state: hecu_label

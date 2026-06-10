@@ -1,0 +1,25 @@
+# HECU
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuGrunt
+  icon:
+    sprite: &icon-rsi /Textures/_MesaStation/Interface/Misc/job_icons.rsi
+    state: Hecu
+  jobName: job-name-hecu-grunt
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuCorpsman
+  icon:
+    sprite: *icon-rsi
+    state: HecuCorpsman
+  jobName: job-name-hecu-corpsman
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHecuEngineer
+  icon:
+    sprite: *icon-rsi
+    state: HecuEngineer
+  jobName: job-name-hecu-engineer

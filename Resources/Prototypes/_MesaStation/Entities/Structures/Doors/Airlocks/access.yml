@@ -1,0 +1,10 @@
+- type: entity
+  parent: Airlock
+  id: AirlockBlackMesaBasicLocked
+  suffix: Black Mesa, Basic
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+  - type: Sprite
+    sprite: _MesaStation/Structures/Doors/Airlocks/MesaStation/basic.rsi
