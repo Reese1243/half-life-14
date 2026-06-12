@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "taken from tgstation and wizden master and edited by innocence/krusty for mesastation",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "equipped-INNERCLOTHING",
+            "directions": 4
+        },
+        {
+            "name": "folded-equipped-INNERCLOTHING",
+            "directions": 4
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        }
+  ]
+}

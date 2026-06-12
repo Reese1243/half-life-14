@@ -41,3 +41,24 @@
     - type: HideLayerClothing
       layers:
         Hair: HEAD
+
+- type: entity
+  parent: [ ClothingHeadHelmetArmoredBase ]
+  id: ClothingHeadHelmetBMEngineer
+  name: Black Mesa Engineer Helmet
+  description: A standard helmet issued to Black Mesa engineers.
+  components:
+    - type: Sprite
+      sprite: _MesaStation/Clothing/Head/Helmets/bmeng_helmet.rsi
+    - type: Clothing
+      sprite: _MesaStation/Clothing/Head/Helmets/bmeng_helmet.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.9
+          Slash: 0.9
+          Piercing: 0.9
+          Heat: 0.9
+    - type: HideLayerClothing
+      layers:
+        Hair: HEAD

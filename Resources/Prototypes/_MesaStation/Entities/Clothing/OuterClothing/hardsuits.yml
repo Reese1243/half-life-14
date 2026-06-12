@@ -1,7 +1,7 @@
 #MesaStation Hardsuits
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, ClothingOuterLightBase ]
+  parent: [ ClothingOuterHardsuitBase, ClothingOuterLightBase, GeigerCounterClothing ]
   id: ClothingOuterHevMk4
   name: HEV MK IV
   description: The hazardous environment mark 4 powered suit
@@ -15,3 +15,9 @@
     sprintModifier: 1.4
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHevMk4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.7
+        Radiation: 0.01
+        Poison: 0.7

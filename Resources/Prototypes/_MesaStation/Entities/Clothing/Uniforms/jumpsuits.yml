@@ -76,3 +76,36 @@
         sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_medicjumpsuit.rsi
       - type: Clothing
         sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_medicjumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformBMAdmin
+  name: Black Mesa Administrator Turtleneck
+  description: The luxurious turtleneck worn by the Black Mesa Administrator. Sophisticated, erudite, elitist. Only the best for the head of Black Mesa.
+  components:
+      - type: Sprite
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_adminturtleneck.rsi
+      - type: Clothing
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_adminturtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformBMEngineer
+  name: Black Mesa Engineer Jumpsuit
+  description: The standard jumpsuit worn by Black Mesa engineers. Practical and durable, designed for the rigors of fieldwork.
+  components:
+      - type: Sprite
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_engineer.rsi
+      - type: Clothing
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_engineer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformBMCargoTech
+  name: Black Mesa Cargo Technician Jumpsuit
+  description: The standard jumpsuit worn by Black Mesa cargo technicians. Practical and durable, designed for the rigors of fieldwork.
+  components:
+      - type: Sprite
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_cargo.rsi
+      - type: Clothing
+        sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_cargo.rsi
