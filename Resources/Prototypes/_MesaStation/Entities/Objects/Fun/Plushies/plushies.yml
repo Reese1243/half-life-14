@@ -1,0 +1,87 @@
+- type: entity
+  parent: BasePlushie
+  id: GrubePlushie
+  name: grube plushie
+  description: yellow? or green?
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Fun/Plushies/grube.rsi
+    state: icon
+  - type: UseDelay
+    delay: 0.5
+  - type: EmitSoundOnUse
+    sound: &GrubePlushieSound
+      path: /Audio/Items/Toys/greebhello.ogg
+      params:
+        volume: -4
+  - type: EmitSoundOnLand
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnActivate
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnTrigger
+    sound: *GrubePlushieSound
+  - type: EmitSoundOnCollide
+    sound: *GrubePlushieSound
+  - type: Edible
+    useSound: *GrubePlushieSound
+  - type: MeleeWeapon
+    soundHit: *GrubePlushieSound
+    attackRate: 10
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieScientist
+  name: scientist plushie
+  description: An adorable stuffed toy that resembles a scientist.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Fun/Plushies/scientist.rsi
+    state: icon
+  - type: Item
+    sprite: _MesaStation/Objects/Fun/Plushies/scientist.rsi
+  - type: EmitSoundOnUse
+    sound: &PlushieScientistSound
+      path: /Audio/MesaStationMobs/PlayerHumanMaleVoice/sci_pain4.ogg
+      params:
+        volume: -5
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/MesaStationMobs/PlayerHumanMaleVoice/Special/sci_pain2.ogg
+      params:
+        volume: -5
+  - type: EmitSoundOnActivate
+    sound: *PlushieScientistSound
+  - type: EmitSoundOnTrigger
+    sound: *PlushieScientistSound
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/MesaStationMobs/PlayerHumanMaleVoice/Special/sci_pain3.ogg
+      params:
+        volume: -5
+  - type: Edible
+    useSound: *PlushieScientistSound
+    transferAmount: 10
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/MesaStationMobs/PlayerHumanMaleVoice/Special/sci_fear9.ogg
+      params:
+        volume: -5
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceThatMakesYouHuegh
+        Quantity: 30
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+        - ReagentId: JuiceThatMakesYouHuegh
+          Quantity: 10
+  - type: Clothing
+    quickEquip: false
+    sprite: _MesaStation/Objects/Fun/Plushies/scientist.rsi
+    slots:
+    - HEAD

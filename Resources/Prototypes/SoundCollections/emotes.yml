@@ -145,3 +145,8 @@
   id: XenoborgPing
   files:
   - /Audio/Voice/Xenoborg/xenoborg_ping.ogg
+
+- type: soundCollection
+  id: Huegh
+  files:
+  - /Audio/MesaStationMobs/PlayerHumanMaleVoice/sci_pain4.ogg

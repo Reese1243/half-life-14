@@ -39,3 +39,6 @@ reagent-desc-catessence = A type of carcinogenic enzyme known to break down prot
 
 reagent-name-canidessence = caninase
 reagent-desc-canidessence = A type of carcinogenic enzyme known to break down proteins found within the vocal cords of most animals. Mixing is NOT recommended.
+
+reagent-name-huegh = juice that makes you Huegh!
+reagent-desc-huegh = Pure essence of scientist plushie. Makes you cry in pain!

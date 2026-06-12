@@ -1,0 +1,4 @@
+- type: flavor
+  id: huegh
+  flavorType: Base
+  description: flavor-huegh
