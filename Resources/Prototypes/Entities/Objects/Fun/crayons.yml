@@ -25,6 +25,8 @@
         type: CrayonBoundUserInterface
   - type: Crayon
     selectedState: like
+    useSound:
+      path: /Audio/MesaStationMisc/Graffiti_sound1.ogg
   - type: LimitedCharges
     maxCharges: 25
   - type: StaticPrice
