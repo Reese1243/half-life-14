@@ -46,5 +46,52 @@
         whitelist:
           tags:
             - CartridgePistol
-  - type: StealTarget
-    stealGroup: OfficerHandgun
+
+- type: entity
+  name: desert eagle
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolDesertEagle
+  description: The Desert Eagle is a powerful sidearm that holds seven rounds of .357
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Guns/Pistols/deserteagle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _MesaStation/Objects/Weapons/Guns/Pistols/deserteagle.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: Gun
+    fireRate: 2
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/Deagle/deagle-1.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload3.ogg
+    soundBoltClosed:
+      path: /Audio/Weapons/MesaStationWeapons/CS_1.6/Generic_Shared/slideback1.ogg
+    soundBoltOpened:
+      path: /Audio/Weapons/MesaStationWeapons/Generic_Shared/reload3.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineDesertEagle
+        insertSound: /Audio/Weapons/MesaStationWeapons/CS_1.6/Deagle/de_clipin.ogg
+        ejectSound: /Audio/Weapons/MesaStationWeapons/CS_1.6/Deagle/de_clipout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
