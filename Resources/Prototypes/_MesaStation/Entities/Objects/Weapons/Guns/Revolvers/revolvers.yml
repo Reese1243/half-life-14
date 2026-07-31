@@ -1,0 +1,25 @@
+- type: entity
+  name: Colt Python
+  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  id: WeaponRevolverColtPython
+  description: Loads 6 rounds of .357 magnum.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Guns/Revolvers/coltphyton.rsi
+  - type: Clothing
+    sprite: _MesaStation/Objects/Weapons/Guns/Revolvers/coltphyton.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+    soundEject: 
+      path: /Audio/Weapons/MesaStationWeapons/357_Magnum_Revolver/357_reload1.ogg
+    soundInsert: 
+      path: /Audio/Weapons/MesaStationWeapons/357_Magnum_Revolver/357_reload1.ogg
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/357_Magnum_Revolver/357_shot1.ogg
+    soundEmpty:
+      path: /Audio/Weapons/MesaStationWeapons/357_Magnum_Revolver/357_cock1.ogg

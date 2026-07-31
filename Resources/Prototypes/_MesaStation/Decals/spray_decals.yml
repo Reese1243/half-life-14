@@ -1,0 +1,109 @@
+- type: decal
+  id: Tux
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Tux
+
+- type: decal
+  id: Lambda
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: lambda    
+
+- type: decal
+  id: Biohazard
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Biohazard    
+
+- type: decal
+  id: BlackMesa
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: BlackMesa  
+
+- type: decal
+  id: Anarchy
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Anarchy
+
+- type: decal
+  id: Delta
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Delta
+
+- type: decal
+  id: Exclamation
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Exclamation
+
+- type: decal
+  id: Smile
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Smile
+
+- type: decal
+  id: Radioactive
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Radioactive
+
+- type: decal
+  id: Skull
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Skull   
+
+- type: decal
+  id: Gordon
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _MesaStation/Effects/spraydecals.rsi
+    state: Gordon   

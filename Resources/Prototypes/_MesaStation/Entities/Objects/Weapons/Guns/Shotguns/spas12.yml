@@ -1,0 +1,19 @@
+- type: entity
+  name: spas 12
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
+  id: WeaponShotgunSpas12
+  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Guns/Shotguns/spas12.rsi
+  - type: Clothing
+    sprite: _MesaStation/Objects/Weapons/Guns/Shotguns/spas12.rsi
+  - type: Item
+    sprite: _MesaStation/Objects/Weapons/Guns/Shotguns/spas12.rsi
+  - type: Gun
+    fireRate: 0.8
+    soundGunshot: 
+      path: /Audio/Weapons/MesaStationWeapons/Shotgun/sbarrel1.ogg
+  - type: BallisticAmmoProvider
+    capacity: 8
+  - type: GunRequiresWield

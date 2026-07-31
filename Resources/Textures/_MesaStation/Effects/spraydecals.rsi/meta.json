@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Made by hac_0313, spray decals for mesa station.",
+    "states": [
+        {
+            "name": "Tux"
+        },
+        {
+            "name": "lambda"
+        },
+        {
+            "name": "Biohazard"
+        },
+        {
+            "name": "BlackMesa"
+        },
+        {
+            "name": "Anarchy"
+        },
+        {
+            "name": "Delta"
+        },
+        {
+            "name": "Exclamation"
+        },
+        {
+            "name": "Smile"
+        },
+        {
+            "name": "Radioactive"
+        },
+        {
+            "name": "Skull"
+        },
+        {
+            "name": "Gordon"
+        }
+    ]
+}

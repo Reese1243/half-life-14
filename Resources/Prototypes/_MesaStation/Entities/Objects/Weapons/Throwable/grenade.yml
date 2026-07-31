@@ -1,0 +1,17 @@
+- type: entity
+  name: Mk2 Grenade
+  description: Grenade that creates a small but devastating explosion.
+  parent: [VolatileGrenadeBase, TimerGrenadeBase]
+  id: mk2grenade
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Throwables/Grenades/mk2.rsi   
+  - type: ExplodeOnTrigger
+    keysIn:
+    - timer
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 120 # about a ~4 tile radius
+    canCreateVacuum: false

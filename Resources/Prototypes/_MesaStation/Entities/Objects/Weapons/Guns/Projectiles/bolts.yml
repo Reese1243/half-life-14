@@ -1,0 +1,41 @@
+- type: entity
+  parent: [BoltRegular, CartridgeCaselessRifle]
+  id: BoltBullet
+  categories: [ HideSpawnMenu ]
+  name: bolt
+  components:
+  - type: Sprite
+    state: rod
+  - type: CartridgeAmmo
+    muzzleFlash: null
+    proto: BoltBullet
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 70
+
+- type: entity
+  parent: BaseArrow
+  id: BoltRegular
+  name: bolt
+  description: You can feel the power of the steppe within you.
+  components:
+  - type: Sprite
+    layers:
+    - state: rod
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/MesaStationWeapons/Crossbow/xbow_hitbod1.ogg
+
+- type: entity
+  parent: CartridgeCaselessRifle
+  id: BoltCrossbow
+  name: bolt
+  description: A heavy bolt used in construction. Excellent for piercing armor.
+  components:
+  - type: CartridgeAmmo
+    muzzleFlash: null  
+    proto: BoltBullet
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    layers:
+    - state: rod          
