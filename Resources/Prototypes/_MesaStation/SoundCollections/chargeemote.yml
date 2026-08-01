@@ -1,0 +1,14 @@
+- type: soundCollection
+  id: MaleCharge
+  files:
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge1.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge2.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge3.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge4.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge5.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge6.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge7.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge8.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge9.ogg
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge10.ogg 
+    - /Audio/MesaStationMobs/HecuMaleVoice/charge11.ogg

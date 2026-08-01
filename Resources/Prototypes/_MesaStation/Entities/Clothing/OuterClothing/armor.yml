@@ -7,6 +7,7 @@
   - type: Sprite
     sprite: _MesaStation/Clothing/OuterClothing/Armor/blackops_armor.rsi
   - type: Clothing
+    equipDelay: 3  
     sprite: _MesaStation/Clothing/OuterClothing/Armor/blackops_armor.rsi
   - type: Armor
     modifiers:
@@ -27,6 +28,7 @@
   - type: Sprite
     sprite: _MesaStation/Clothing/OuterClothing/Armor/bmsec_armor.rsi
   - type: Clothing
+    equipDelay: 3
     sprite: _MesaStation/Clothing/OuterClothing/Armor/bmsec_armor.rsi
   - type: Armor
     modifiers:
@@ -47,6 +49,7 @@
   - type: Sprite
     sprite: _MesaStation/Clothing/OuterClothing/Armor/bmsec_swatarmor.rsi
   - type: Clothing
+    equipDelay: 3  
     sprite: _MesaStation/Clothing/OuterClothing/Armor/bmsec_swatarmor.rsi
   - type: Armor
     modifiers:
