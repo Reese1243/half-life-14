@@ -48,7 +48,7 @@
             - CartridgePistol
 
 - type: entity
-  name: desert eagle
+  name: Deagle
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolDesertEagle
   description: The Desert Eagle is a powerful sidearm that holds seven rounds of .357

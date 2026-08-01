@@ -1,0 +1,14 @@
+- type: entity
+  parent: MarkerBase
+  id: XenSpawner
+  suffix: Xen
+  name: Xen Spawner
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: ai
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: XenPortal1

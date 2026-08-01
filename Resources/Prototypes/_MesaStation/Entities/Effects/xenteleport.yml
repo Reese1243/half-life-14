@@ -1,0 +1,37 @@
+- type: entity
+  id: XenPortalEffectBase
+  name: xen portal
+  description: Xen portal, what else?
+  categories: [ HideSpawnMenu ]  
+  components:  
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _MesaStation/Effects/xenteleport.rsi
+  - type: PointLight
+    radius: 4
+    energy: 5
+    softness: 0
+    color: "#52ff39"           
+  - type: TimedDespawn
+    lifetime: 1.5
+  - type: EmitSoundOnSpawn
+    sound:
+      collection: XenTeleportationCollection    
+
+# Portal variations
+
+- type: entity
+  id: XenPortal1
+  parent: XenPortalEffectBase
+  categories: [ HideSpawnMenu ]    
+  components:
+  - type: Sprite
+    loop: false
+    scale: "2,2"
+    layers:
+    - state: XenTeleport   
+  - type: ConditionalSpawner
+    chance: 1
+    prototypes: 
+      - MobAlexander
