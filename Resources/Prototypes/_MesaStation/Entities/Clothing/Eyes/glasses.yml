@@ -21,5 +21,10 @@
     sprite: _MesaStation/Clothing/Eyes/Glasses/blackopsnvg.rsi
   - type: Clothing
     sprite: _MesaStation/Clothing/Eyes/Glasses/blackopsnvg.rsi
+    equipSound: 
+      path: /Audio/MesaStationMisc/nightvisionon.ogg
+    unequipSound: 
+      path: /Audio/MesaStationMisc/nightvisionoff.ogg
   - type: FlashImmunity
   - type: EyeProtection
+  - type: NightVision
