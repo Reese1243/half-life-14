@@ -165,7 +165,7 @@
 
 - type: emote
   id: Squeak
-  name: Taunt
+  name: Charge
   category: Vocal
   available: false
   icon: Interface/Emotes/vocal.png
@@ -175,7 +175,7 @@
   blacklist:
     tags:
     - SiliconEmotes
-  chatMessages: ["Taunts!"]
+  chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
    - charge
 
