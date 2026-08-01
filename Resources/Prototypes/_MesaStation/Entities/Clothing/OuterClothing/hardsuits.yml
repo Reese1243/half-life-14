@@ -10,8 +10,18 @@
     sprite: _MesaStation/Clothing/OuterClothing/Hardsuits/hev_mk4.rsi
   - type: Clothing
     sprite: _MesaStation/Clothing/OuterClothing/Hardsuits/hev_mk4.rsi
-  - type: ClothingSpeedModifier
-    walkModifier: 1.4
-    sprintModifier: 1.4
+    equipSound:
+      path: /Audio/MesaStationHevMk4/hev_logon.ogg 
+    stripDelay: 5   
+    equipDelay: 5
+    unequipDelay: 5
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHevMk4
+    clothingPrototype: ClothingHeadHevMk4    
+  - type: ClothingSpeedModifier
+    standing: true
+    walkModifier: 1
+    sprintModifier: 1.4     
+  - type: HeldSpeedModifier  
+    walkModifier: 0.6
+    sprintModifier: 0.6
+    mirrorClothingModifier: false

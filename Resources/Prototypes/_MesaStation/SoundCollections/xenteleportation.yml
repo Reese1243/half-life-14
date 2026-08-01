@@ -1,0 +1,18 @@
+- type: soundCollection
+  id: XenTeleportationCollection
+  files:
+    - /Audio/MesaStationMisc/beamstart1.ogg
+    - /Audio/MesaStationMisc/beamstart2.ogg
+    - /Audio/MesaStationMisc/beamstart3.ogg
+    - /Audio/MesaStationMisc/beamstart4.ogg
+    - /Audio/MesaStationMisc/beamstart5.ogg
+    - /Audio/MesaStationMisc/beamstart6.ogg        
+    - /Audio/MesaStationMisc/beamstart7.ogg
+    - /Audio/MesaStationMisc/beamstart8.ogg
+    - /Audio/MesaStationMisc/beamstart9.ogg
+    - /Audio/MesaStationMisc/beamstart10.ogg
+    - /Audio/MesaStationMisc/beamstart11.ogg
+    - /Audio/MesaStationMisc/beamstart12.ogg     
+    - /Audio/MesaStationMisc/beamstart13.ogg
+    - /Audio/MesaStationMisc/beamstart14.ogg
+    - /Audio/MesaStationMisc/beamstart15.ogg

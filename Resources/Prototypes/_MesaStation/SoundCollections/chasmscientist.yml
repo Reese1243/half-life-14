@@ -1,0 +1,8 @@
+- type: soundCollection
+  id: ScientistChasmFall
+  files:
+    - /Audio/MesaStationChasm/scream1.ogg
+    - /Audio/MesaStationChasm/scream2.ogg
+    - /Audio/MesaStationChasm/scream3.ogg
+    - /Audio/MesaStationChasm/scream4.ogg
+    - /Audio/MesaStationChasm/scream5.ogg
