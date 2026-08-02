@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: ComputerTalkCollection
+  files:
+    - /Audio/MesaStationAmbience/computalk1.ogg
+    - /Audio/MesaStationAmbience/computalk2.ogg

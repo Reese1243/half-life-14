@@ -5,6 +5,16 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: SpamEmitSound
+    nextSound: 8
+    minInterval: 8
+    maxInterval: 16
+    sound: 
+      collection: ComputerTalkCollection
+      params:
+        volume: -8
+        maxDistance: 5
+  - type: SpamEmitSoundRequirePower
   - type: Animateable
   - type: MeleeSound
     soundGroups:

@@ -494,9 +494,9 @@
     predictable: false # issues between ToggleCellDraw and ItemToggleActiveSound
     onUse: false
     soundActivate:
-      path: /Audio/Items/flashlight_on.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
     soundDeactivate:
-      path: /Audio/Items/flashlight_off.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
     soundFailToActivate:
       path: /Audio/Machines/button.ogg
   - type: ItemToggleActiveSound

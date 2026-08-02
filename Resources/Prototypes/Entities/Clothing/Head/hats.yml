@@ -1528,9 +1528,9 @@
   - type: ItemToggle
     predictable: true
     soundActivate:
-      path: /Audio/Items/flashlight_on.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
     soundDeactivate:
-      path: /Audio/Items/flashlight_off.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
   - type: Tag
     tags:
     - PetWearable

@@ -97,6 +97,8 @@
     spawned:
     - id: FoodMeatHuman
       amount: 5
+  - type: Speech
+    allowedEmotes: ['Squeak']
 
 - type: entity
   parent: OrganBase

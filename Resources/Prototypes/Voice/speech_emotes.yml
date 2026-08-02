@@ -165,21 +165,19 @@
 
 - type: emote
   id: Squeak
-  name: chat-emote-name-squeak
+  name: Charge
   category: Vocal
   available: false
-  icon: Interface/Emotes/squeak.png
+  icon: Interface/Emotes/vocal.png
   whitelist:
     components:
       - Vocal
   blacklist:
     tags:
     - SiliconEmotes
-  chatMessages: ["chat-emote-msg-squeak"]
+  chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
-   - squeak
-   - squeaks
-   - squeaked
+   - charge
 
 - type: emote
   id: Click
