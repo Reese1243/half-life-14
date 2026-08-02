@@ -76,3 +76,14 @@
         sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_medicjumpsuit.rsi
       - type: Clothing
         sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bm_medicjumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSurveyTeamTurtleNeck
+  name: Survey Team Turtleneck Suit
+  description: A close fitting turtleneck jumpsuit often worn underneath the HEV MKIV
+  components:
+    - type: Sprite
+      sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_survteam_turtleneck.rsi
+    - type: Clothing
+      sprite: _MesaStation/Clothing/Uniforms/Jumpsuit/bmemployee_survteam_turtleneck.rsi
