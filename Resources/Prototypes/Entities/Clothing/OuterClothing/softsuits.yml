@@ -144,9 +144,9 @@
   - type: ItemToggle
     onUse: false
     soundActivate:
-      path: /Audio/Items/flashlight_on.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
     soundDeactivate:
-      path: /Audio/Items/flashlight_off.ogg
+      path: /Audio/MesaStationMisc/flashlight1.ogg
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Effects/Vehicle/ambulancesiren.ogg #not the best sound, but after looking through all of current freesound regarding sirens and ambulance, this was the best compromise

@@ -19,13 +19,13 @@ public sealed partial class HandheldLightComponent : Component
     public float Wattage { get; set; } = .8f;
 
     [DataField("turnOnSound")]
-    public SoundSpecifier TurnOnSound = new SoundPathSpecifier("/Audio/Items/flashlight_on.ogg");
+    public SoundSpecifier TurnOnSound = new SoundPathSpecifier("/Audio/MesaStationMisc/flashlight1.ogg");
 
     [DataField("turnOnFailSound")]
     public SoundSpecifier TurnOnFailSound = new SoundPathSpecifier("/Audio/Machines/button.ogg");
 
     [DataField("turnOffSound")]
-    public SoundSpecifier TurnOffSound = new SoundPathSpecifier("/Audio/Items/flashlight_off.ogg");
+    public SoundSpecifier TurnOffSound = new SoundPathSpecifier("/Audio/MesaStationMisc/flashlight1.ogg");
 
     /// <summary>
     ///     Whether to automatically set item-prefixes when toggling the flashlight.

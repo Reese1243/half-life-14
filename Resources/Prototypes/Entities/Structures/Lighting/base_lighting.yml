@@ -149,10 +149,10 @@
     hasLampOnSpawn: LightTube
   - type: AmbientOnPowered
   - type: AmbientSound
-    volume: -15
-    range: 2
+    volume: -9
+    range: 3
     sound:
-      path: /Audio/Ambience/Objects/light_hum.ogg
+      path: /Audio/MesaStationAmbience/fluorescent.ogg
   - type: DamageOnInteract
     damage:
       types:

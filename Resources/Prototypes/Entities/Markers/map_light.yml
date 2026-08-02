@@ -19,6 +19,12 @@
   id: MapLight
   parent: MapLightBase
   description: standard light for outdoor areas.
+  components:
+  - type: AmbientSound
+    volume: -9
+    range: 3
+    sound:
+      path: /Audio/MesaStationAmbience/fluorescent.ogg
 
 - type: entity
   id: MapLightOutdoors
