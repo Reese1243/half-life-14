@@ -94,11 +94,11 @@
   name: Urist McHands
   components:
   - type: Butcherable
-  - type: Speech
-    allowedEmotes: ['Squeak']
     spawned:
     - id: FoodMeatHuman
       amount: 5
+  - type: Speech
+    allowedEmotes: ['Squeak']
 
 - type: entity
   parent: OrganBase
