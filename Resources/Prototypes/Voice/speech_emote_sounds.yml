@@ -6,7 +6,7 @@
   sounds:
     Scream:
       collection: MaleScreams
-    Squeak:
+    Squeak: #Mothunisex Emote used
       collection: MaleCharge
     Laugh:
       collection: MaleLaugh
