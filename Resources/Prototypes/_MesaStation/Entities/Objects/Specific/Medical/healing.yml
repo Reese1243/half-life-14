@@ -1,0 +1,47 @@
+- type: entity
+  name: small medkit
+  description: Used to treat immediate medical attention. You still should use chargers to recover a lot of lose health.
+  parent: BaseHealingItem
+  id: Smallmedkit
+  components:
+  - type: Tag
+    tags:
+    - Ointment
+  - type: Sprite
+    sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi
+    state: regenerative-mesh
+    scale: 0.8,0.8
+  - type: Item
+    sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi  
+    heldPrefix: regenerative-mesh
+    size: Normal
+  - type: Healing
+    delay: 2
+    damageContainers:
+      - Biological
+    damage:
+      types:
+        Blunt: -7
+        Piercing: -10
+        Slash: -7
+        Heat: -10
+        Cold: -7
+        Shock: -7
+        Poison: -10
+        Radiation: -10
+    modifyBloodLevel: 10
+    healingBeginSound:
+      path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
+      params:
+        volume: -100
+    healingEndSound:
+      path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
+      params:
+        volume: -3
+        variation: 0.125
+  - type: Stack
+    stackType: RegenerativeMesh
+    maxCountOverride: 1
+    count: 1
+  - type: StackPrice
+    price: 20
