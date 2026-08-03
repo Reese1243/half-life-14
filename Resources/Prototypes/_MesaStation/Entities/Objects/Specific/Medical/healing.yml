@@ -21,15 +21,15 @@
       - Biological
     damage:
       types:
-        Blunt: -7
-        Piercing: -10
-        Slash: -7
-        Heat: -10
-        Cold: -7
-        Shock: -7
-        Poison: -10
-        Radiation: -10
-    modifyBloodLevel: 10
+        Blunt: -10
+        Piercing: -15
+        Slash: -10
+        Heat: -15
+        Cold: -10
+        Shock: -10
+        Poison: -15
+        Radiation: -15
+    modifyBloodLevel: -10
     healingBeginSound:
       path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
       params:
