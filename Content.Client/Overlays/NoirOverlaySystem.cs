@@ -9,6 +9,7 @@ public sealed partial class NoirOverlaySystem : EquipmentHudSystem<NoirOverlayCo
     [Dependency] private readonly IOverlayManager _overlayMan = default!;
 
     private NoirOverlay _overlay = default!;
+    private bool _overlayAdded;
 
     public override void Initialize()
     {
@@ -21,13 +22,21 @@ public sealed partial class NoirOverlaySystem : EquipmentHudSystem<NoirOverlayCo
     {
         base.UpdateInternal(component);
 
-        _overlayMan.AddOverlay(_overlay);
+        if (!_overlayAdded)
+        {
+            _overlayMan.AddOverlay(_overlay);
+            _overlayAdded = true;
+        }
     }
 
     protected override void DeactivateInternal()
     {
         base.DeactivateInternal();
 
-        _overlayMan.RemoveOverlay(_overlay);
+        if (_overlayAdded)
+        {
+            _overlayMan.RemoveOverlay(_overlay);
+            _overlayAdded = false;
+        }
     }
 }

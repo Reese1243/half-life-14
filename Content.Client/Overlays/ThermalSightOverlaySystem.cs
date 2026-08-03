@@ -10,6 +10,7 @@ public sealed partial class ThermalSightOverlaySystem : EquipmentHudSystem<Therm
     [Dependency] private readonly IOverlayManager _overlayMan = default!;
 
     private GasTileDangerousTemperatureOverlay _temperatureOverlay = default!;
+    private bool _overlayAdded;
 
     public override void Initialize()
     {
@@ -22,13 +23,21 @@ public sealed partial class ThermalSightOverlaySystem : EquipmentHudSystem<Therm
     {
         base.UpdateInternal(component);
 
-        _overlayMan.AddOverlay(_temperatureOverlay);
+        if (!_overlayAdded)
+        {
+            _overlayMan.AddOverlay(_temperatureOverlay);
+            _overlayAdded = true;
+        }
     }
 
     protected override void DeactivateInternal()
     {
         base.DeactivateInternal();
 
-        _overlayMan.RemoveOverlay(_temperatureOverlay);
+        if (_overlayAdded)
+        {
+            _overlayMan.RemoveOverlay(_temperatureOverlay);
+            _overlayAdded = false;
+        }
     }
 }

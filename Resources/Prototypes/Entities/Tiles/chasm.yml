@@ -8,6 +8,8 @@
     - Wall
   components:
   - type: Chasm
+    fallingSound: 
+      collection: ScientistChasmFall
   - type: StepTrigger
     requiredTriggeredSpeed: 0
     intersectRatio: 0.4
