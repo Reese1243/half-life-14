@@ -33,5 +33,3 @@
     - HealthMedkitInjectMode
   - type: ExaminableSolution
     solution: charger
-  - type: DeleteOnSolutionEmpty
-    solution: charger
