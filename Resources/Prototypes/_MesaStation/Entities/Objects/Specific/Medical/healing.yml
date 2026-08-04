@@ -6,11 +6,15 @@
   components:
   - type: Sprite
     sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi
-    state: regenerative-mesh
+    state: medkit
     scale: 0.7,0.7
   - type: Item
     sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi  
-    heldPrefix: regenerative-mesh
+    inhandVisuals:
+      left:
+      - state: medkit-inhand-left
+      right:
+      - state: medkit-inhand-right
     size: Normal
   - type: Healing
     delay: 2
