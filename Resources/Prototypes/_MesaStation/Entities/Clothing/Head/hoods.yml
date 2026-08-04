@@ -1,0 +1,31 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodBMCleansuit
+  name: Black Mesa Cleansuit Hood
+  suffix:
+  description: A hood that protects the head and face from biological contaminants.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Head/Hoods/Bio/cleansuithood.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Head/Hoods/Bio/cleansuithood.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: GroupExamine
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.90
+        Radiation: 0.65
+        Poison: 0.90
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+      Snout: HEAD
+      HeadTop: HEAD
+      HeadSide: HEAD

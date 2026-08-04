@@ -19,3 +19,31 @@
     sprite: _MesaStation/Clothing/Belt/blackopswebvest.rsi
   - type: Clothing
     sprite: _MesaStation/Clothing/Belt/blackopswebvest.rsi
+
+- type: entity
+  parent: [ ClothingBeltStorageBase ]
+  id: ClothingBeltBMEngineerHarness
+  name: Black Mesa Engineer Harness
+  description: Standard issue harness for Black Mesa engineers. It comes with a built in portable cell recharger for all your engineering needs.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Belt/engiharness.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Belt/engiharness.rsi
+  - type: Charger
+    chargeRate: 10
+    slotId: charger_slot
+    portable: true
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: ContainerContainer
+    containers:
+      charger_slot: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      charger_slot:
+        ejectOnInteract: false
+        whitelist:
+          tags:
+          - PowerCell
+          - PowerCellSmall

@@ -24,3 +24,14 @@
     sprite: _MesaStation/Clothing/OuterClothing/Coats/bmsec_hoscoat.rsi
   - type: Clothing
     sprite: _MesaStation/Clothing/OuterClothing/Coats/bmsec_hoscoat.rsi
+
+- type: entity
+  parent: [BaseSecurityCommandContraband, ClothingOuterArmorBlackMesaHOS]
+  id: ClothingOuterCoatBlackMesaAdministratorCoat
+  name: Black Mesa Administrator's Coat
+  description: Brown tweed suit jacket to compliment the black cotton turtleneck. Erudite, elitist. It has been reinforced with an experimental kevlar weave.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/OuterClothing/Coats/bm_admincoat.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/OuterClothing/Coats/bm_admincoat.rsi

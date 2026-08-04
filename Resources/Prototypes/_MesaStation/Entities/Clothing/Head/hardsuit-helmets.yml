@@ -1,0 +1,19 @@
+#MesaStation hardsuits
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase ]
+  id: ClothingHeadHevMk4
+  name: HEV MK IV helmet
+  description: A helmet designed to protect the wearer from hazardous environments
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Head/Hardsuits/hev_mk4.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Head/Hardsuits/hev_mk4.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Radiation: 0.65
+        Caustic: 0.95
+        Poison: 0.95
+

@@ -1,0 +1,6 @@
+- type: emote
+  id: Huegh
+  name: chat-emote-name-huegh
+  category: Vocal
+  icon: Interface/Emotes/weh.png
+  chatMessages: ["chat-emote-msg-huegh"]

@@ -42,6 +42,8 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: MaleDeathGasp
+    Huegh:
+      collection: Huegh
 
 - type: emoteSounds
   id: FemaleHuman
@@ -84,6 +86,8 @@
       collection: FemaleGasp
     DefaultDeathgasp:
       collection: FemaleDeathGasp
+    Huegh:
+      collection: Huegh
 
 - type: emoteSounds
   id: MaleReptilian

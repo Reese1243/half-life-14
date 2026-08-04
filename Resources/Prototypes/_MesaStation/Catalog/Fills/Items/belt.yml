@@ -1,0 +1,15 @@
+- type: entity
+  id: ClothingBeltBMEngineerHarnessFilled
+  parent: ClothingBeltBMEngineerHarness
+  suffix: Engineering
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: CrowbarYellow
+        - id: Wrench
+        - id: Screwdriver
+        - id: Wirecutter
+        - id: Welder
+        - id: Multitool

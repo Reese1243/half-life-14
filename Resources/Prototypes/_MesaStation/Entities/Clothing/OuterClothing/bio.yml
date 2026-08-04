@@ -1,0 +1,35 @@
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothingGasTanks, GeigerCounterClothing]
+  id: ClothingOuterBMCleansuit
+  name: Black Mesa Cleansuit
+  suffix:
+  description: A suit that protects against biological contamination.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Clothing/OuterClothing/Suits/cleansuit.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/OuterClothing/Suits/cleansuit.rsi
+  - type: HideLayerClothing
+    slots:
+    - Tail
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.45
+        Radiation: 0.01
+        Poison: 0.35
+  - type: TemperatureProtection
+    heatingCoefficient: 0.75
+    coolingCoefficient: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodBMCleansuit
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.20
+  - type: GroupExamine
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95

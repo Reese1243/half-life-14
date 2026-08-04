@@ -1,7 +1,7 @@
 #MesaStation Hardsuits
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, ClothingOuterLightBase ]
+  parent: [ ClothingOuterHardsuitBase, ClothingOuterLightBase, GeigerCounterClothing ]
   id: ClothingOuterHevMk4
   name: HEV MK IV
   description: The hazardous environment mark 4 powered suit
@@ -11,17 +11,17 @@
   - type: Clothing
     sprite: _MesaStation/Clothing/OuterClothing/Hardsuits/hev_mk4.rsi
     equipSound:
-      path: /Audio/MesaStationHevMk4/hev_logon.ogg 
-    stripDelay: 5   
+      path: /Audio/MesaStationHevMk4/hev_logon.ogg
+    stripDelay: 5
     equipDelay: 5
     unequipDelay: 5
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHevMk4    
+    clothingPrototype: ClothingHeadHevMk4
   - type: ClothingSpeedModifier
     standing: true
     walkModifier: 1
-    sprintModifier: 1.4     
-  - type: HeldSpeedModifier  
+    sprintModifier: 1.4
+  - type: HeldSpeedModifier
     walkModifier: 0.6
     sprintModifier: 0.6
     mirrorClothingModifier: false
