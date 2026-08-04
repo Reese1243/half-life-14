@@ -34,7 +34,7 @@
         - ReagentId: Grubjuice
           Quantity: 100
   - type: Injector
-    isCharger: true
+    isCharger: false
     needHand: False
     currentTransferAmount: 3
     solutionName: charger

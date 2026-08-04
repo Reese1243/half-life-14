@@ -1,0 +1,35 @@
+- type: entity
+  name: emergency medkit
+  description: It's an emergency medical kit
+  parent: BaseHealingItem
+  id: Emergencymedkit
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi
+    state: medkit
+    scale: 0.7,0.7
+  - type: Item
+    sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi  
+    inhandVisuals:
+      left:
+      - state: medkit-inhand-left
+      right:
+      - state: medkit-inhand-right
+    size: Normal
+  - type: SolutionContainerManager
+    solutions:
+      charger:
+        maxVol: 15
+        reagents:
+        - ReagentId: Grubjuice
+          Quantity: 15
+  - type: Injector
+    isCharger: false
+    needHand: true
+    currentTransferAmount: null
+    solutionName: charger
+    activeModeProtoId: HealthMedkitInjectMode
+    allowedModes:
+    - HealthMedkitInjectMode
+  - type: ExaminableSolution
+    solution: charger
