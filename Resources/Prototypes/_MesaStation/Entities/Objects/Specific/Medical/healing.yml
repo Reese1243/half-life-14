@@ -4,13 +4,10 @@
   parent: BaseHealingItem
   id: Smallmedkit
   components:
-  - type: Tag
-    tags:
-    - Ointment
   - type: Sprite
     sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi
     state: regenerative-mesh
-    scale: 0.8,0.8
+    scale: 0.7,0.7
   - type: Item
     sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi  
     heldPrefix: regenerative-mesh
@@ -21,15 +18,15 @@
       - Biological
     damage:
       types:
-        Blunt: -10
-        Piercing: -15
-        Slash: -10
-        Heat: -15
-        Cold: -10
-        Shock: -10
-        Poison: -15
-        Radiation: -15
-    modifyBloodLevel: -10
+        Blunt: -6
+        Piercing: -10
+        Slash: -6
+        Heat: -4
+        Cold: -4
+        Shock: -4
+        Poison: -10
+        Radiation: -10
+    modifyBloodLevel: -5
     healingBeginSound:
       path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
       params:
@@ -39,9 +36,3 @@
       params:
         volume: -3
         variation: 0.125
-  - type: Stack
-    stackType: RegenerativeMesh
-    maxCountOverride: 1
-    count: 1
-  - type: StackPrice
-    price: 20
