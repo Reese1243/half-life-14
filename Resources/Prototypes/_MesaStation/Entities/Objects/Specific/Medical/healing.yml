@@ -1,8 +1,8 @@
 - type: entity
-  name: small medkit
-  description: Used to treat immediate medical attention. You still should use chargers to recover a lot of lose health.
+  name: emergency medkit
+  description: It's an emergency medical kit
   parent: BaseHealingItem
-  id: Smallmedkit
+  id: Emergencymedkit
   components:
   - type: Sprite
     sprite: _MesaStation/Objects/Specific/Medical/smallmedkit.rsi
@@ -16,28 +16,22 @@
       right:
       - state: medkit-inhand-right
     size: Normal
-  - type: Healing
-    delay: 2
-    damageContainers:
-      - Biological
-    damage:
-      types:
-        Blunt: -7
-        Piercing: -10
-        Slash: -7
-        Heat: -5
-        Cold: -5
-        Shock: -5
-        Poison: -10
-        Radiation: -10
-    modifyBloodLevel: 5
-    bloodlossModifier: -10
-    healingBeginSound:
-      path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
-      params:
-        volume: -100
-    healingEndSound:
-      path: "/Audio/MesaStationMisc/smallmedkit1.ogg"
-      params:
-        volume: -3
-        variation: 0.125
+  - type: SolutionContainerManager
+    solutions:
+      charger:
+        maxVol: 15
+        reagents:
+        - ReagentId: Grubjuice
+          Quantity: 15
+  - type: Injector
+    isCharger: false
+    needHand: true
+    currentTransferAmount: null
+    solutionName: charger
+    activeModeProtoId: HealthMedkitInjectMode
+    allowedModes:
+    - HealthMedkitInjectMode
+  - type: ExaminableSolution
+    solution: charger
+  - type: DeleteOnSolutionEmpty
+    solution: charger

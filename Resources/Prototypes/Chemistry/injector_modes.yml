@@ -162,3 +162,12 @@
   injectOnUse: true
   popupUserAttempt: injector-component-spray-injecting-user
   mobTime: 2
+
+- type: injectorMode
+  parent: [ BaseInjectMode ]
+  id: HealthMedkitInjectMode
+  injectSound: /Audio/MesaStationMobs/MobActions/Items/smallmedkit1.ogg
+  injectPopupTarget: injector-component-feel-prick-message
+  injectOnUse: true
+  popupUserAttempt: injector-component-spray-injecting-user
+  mobTime: 2
