@@ -41,4 +41,3 @@
         params:
           volume: 1
     - type: FlashOnTrigger    
-      shader: GreenFlash
