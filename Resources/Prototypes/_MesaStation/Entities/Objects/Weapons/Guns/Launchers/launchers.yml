@@ -1,0 +1,37 @@
+- type: entity
+  name: rpg
+  parent: [ BaseWeaponLauncher, BaseMajorContraband ]
+  id: WeaponLauncherRPG
+  description: A modified ancient rocket-propelled grenade launcher.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Guns/Launchers/rpg.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _MesaStation/Objects/Weapons/Guns/Launchers/rpg.rsi
+    slots:
+    - Back
+    - suitStorage    
+  - type: Item    
+  - type: Gun
+    fireRate: 0.5
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/Rocket_Launcher/rocketfire1.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeRocket
+    proto: CartridgeRocket
+    capacity: 1
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+  - type: GunRequiresWield  

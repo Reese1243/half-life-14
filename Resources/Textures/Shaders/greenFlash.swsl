@@ -1,0 +1,35 @@
+// Bright Green Screen flash effect for Space Station 14.
+// Covers the screen in a bright green tint that fades away while shaking.
+//
+// percentComplete: 0.0 at the start of the flash, 1.0 at the end.
+uniform highp float percentComplete;
+
+// Higher exponent -> faster initial fade-out.
+const highp float fadeFalloffExp = 0.5;
+
+void fragment() {
+    // Remaining flash intensity (1.0 at start, 0.0 at the end).
+    highp float remaining = -pow(percentComplete, fadeFalloffExp) + 1.0;
+
+    // Shake gets stronger the "fresher" the flash is, and fades out with it.
+    highp float shakeAmount = remaining * 0.1;
+
+    // Two layered sine/cosine offsets create a jittery, screen-wide shake.
+    highp vec2 shakeOffset = vec2(
+        sin(2 * 50.0) * shakeAmount,
+        cos(1 * 55.5) * shakeAmount
+    );
+
+    // Sample the screen texture with the shake applied, plus a subtle
+    // swirling distortion so the reveal feels disorienting.
+    highp vec2 shakenUV = UV + shakeOffset;
+    highp vec4 screen = zTexture(shakenUV + vec2(0.02 * sin(3 * 2.0), 0.02 * cos(3 * 2.0)));
+
+    // The bright green flash color.
+    highp vec4 green = vec4(0.020, 0.180, 0.0, 1.0);
+
+    // Mix between full green (start) and the shaken screen (fully faded).
+    highp vec4 mixed = mix(green, screen, percentComplete);
+
+    COLOR = vec4(mixed.rgb, 1.0);
+}

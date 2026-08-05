@@ -826,6 +826,12 @@
     radius: 3.5
     color: orange
     energy: 0.5
+  - type: AmbientSound
+    range: 15
+    sound: 
+      path: /Audio/Weapons/MesaStationWeapons/Rocket_Launcher/rocket1.ogg    
+      params:
+        volume: 10
 
 - type: entity
   id: BulletWeakRocket

@@ -125,3 +125,8 @@
   id: NightVision
   kind: source
   path: "/Textures/Shaders/night_vision.swsl"
+
+- type: shader
+  id: GreenFlash
+  kind: source
+  path: "/Textures/Shaders/greenFlash.swsl"
