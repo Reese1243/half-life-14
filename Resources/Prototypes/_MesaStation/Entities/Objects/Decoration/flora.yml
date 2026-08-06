@@ -1,0 +1,462 @@
+- type: entity
+  id: BaseBushFlora
+  name: bush
+  description: Heavy as a really heavy thing.
+  abstract: true
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Decals/Flora/flora_bushes.rsi
+  - type: SpamEmitSound
+    nextSound: 15
+    minInterval: 20
+    maxInterval: 30
+    sound: 
+      collection: FloraBushCollection
+      params:
+        volume: -8
+        maxDistance: 5    
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        density: 1000
+        layer:
+        - HalfWallLayer
+        - Opaque
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 50
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBush1
+  components:
+  - type: Sprite
+    layers:
+    - state: busha1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBush2
+  components:
+  - type: Sprite
+    layers:
+    - state: busha2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBush3
+  components:
+  - type: Sprite
+    layers:
+    - state: busha3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushb1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushb1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushb2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushb2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushb3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushb3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushc1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushc1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushc2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushc2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushc3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushc3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushd1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushd1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushd2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushd2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushd3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushd3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushd4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushd4
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushe1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushe1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushe2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushe2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushe3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushe3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushe4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushe4
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushe4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushe4
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushf1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushf1
+      map: ["random"]      
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushf2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushf2
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushf3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushf3
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushg1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushg1
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushg2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushg2
+      map: ["random"]          
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushg3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushg3
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushg4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushg4
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushh1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushh1
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushh2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushh2
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushh3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushh3
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushi1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushi1
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushi2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushi2
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushi3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushi3
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushi4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushi4
+      map: ["random"]    
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushj1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushj1
+      map: ["random"]          
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushj2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushj2
+      map: ["random"]       
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushj3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushj3
+      map: ["random"]          
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushk1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushk1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushk2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushk2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushk3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushk3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushl1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushl1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushl2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushl2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushl3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushl3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushl4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushl4
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushm1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushm1
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushm2
+  components:
+  - type: Sprite
+    layers:
+    - state: bushm2
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushm3
+  components:
+  - type: Sprite
+    layers:
+    - state: bushm3
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushm4
+  components:
+  - type: Sprite
+    layers:
+    - state: bushm4
+      map: ["random"]
+
+- type: entity
+  parent: BaseBushFlora
+  id: FloraBushn1
+  components:
+  - type: Sprite
+    layers:
+    - state: bushn1
+      map: ["random"]

@@ -545,6 +545,9 @@
     - Recyclable
   - type: Sprite
     state: rotten
+  - type: AmbientSound
+    sound:
+      path: /Audio/MesaStationAmbience/flies.ogg
   - type: SolutionContainerManager
     solutions:
       food:
