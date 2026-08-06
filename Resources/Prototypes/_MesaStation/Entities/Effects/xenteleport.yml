@@ -13,6 +13,8 @@
     energy: 5
     softness: 0
     color: "#52ff39"           
+  - type: LightFade
+    duration: 1
   - type: TimedDespawn
     lifetime: 1.5
   - type: EmitSoundOnSpawn

@@ -19,7 +19,7 @@ public sealed partial class FlashOnTriggerComponent : BaseXOnTriggerComponent
     /// The duration of the status effect.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public TimeSpan Duration = TimeSpan.FromSeconds(8);
+    public TimeSpan Duration = TimeSpan.FromSeconds(2);
 
     /// <summary>
     /// The probability to apply the status effect.

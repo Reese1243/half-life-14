@@ -1,0 +1,43 @@
+- type: entity
+  id: XenPortalEffectBase2
+  name: xen portal
+  description: Xen portal, what else?
+  components:
+    - type: Physics
+      bodyType: Static
+    - type: Sprite
+      sprite: _MesaStation/Effects/xenportal.rsi
+      layers:
+      - state: XenPortal
+      scale: 0.6,0.6
+    - type: Fixtures
+      fixtures:
+        portalFixture:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.38,-0.38,0.38,0.38"
+          mask:
+          - FullTileMask
+          layer:
+          - WallLayer
+          hard: false
+    - type: PointLight
+      radius: 4
+      energy: 5
+      softness: 0
+      color: "#52ff39"
+    - type: EmitSoundOnSpawn
+      sound:
+        collection: XenTeleportationCollection
+    - type: TriggerOnCollide
+      fixtureID: portalFixture    
+    - type: Portal    
+      departureSound:
+        collection: XenTeleportationCollection
+        params:
+          volume: 1
+      arrivalSound:
+        collection: XenTeleportationCollection  
+        params:
+          volume: 1
+    - type: FlashOnTrigger    
