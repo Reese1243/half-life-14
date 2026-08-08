@@ -40,7 +40,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBush1
+  id: floraBush1
   components:
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBush2
+  id: floraBush2
   components:
   - type: Sprite
     layers:
@@ -58,7 +58,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBush3
+  id: floraBush3
   components:
   - type: Sprite
     layers:
@@ -67,7 +67,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushb1
+  id: floraBushb1
   components:
   - type: Sprite
     layers:
@@ -76,7 +76,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushb2
+  id: floraBushb2
   components:
   - type: Sprite
     layers:
@@ -85,7 +85,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushb3
+  id: floraBushb3
   components:
   - type: Sprite
     layers:
@@ -94,7 +94,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushc1
+  id: floraBushc1
   components:
   - type: Sprite
     layers:
@@ -103,7 +103,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushc2
+  id: floraBushc2
   components:
   - type: Sprite
     layers:
@@ -112,7 +112,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushc3
+  id: floraBushc3
   components:
   - type: Sprite
     layers:
@@ -121,7 +121,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushd1
+  id: floraBushd1
   components:
   - type: Sprite
     layers:
@@ -130,7 +130,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushd2
+  id: floraBushd2
   components:
   - type: Sprite
     layers:
@@ -139,7 +139,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushd3
+  id: floraBushd3
   components:
   - type: Sprite
     layers:
@@ -148,7 +148,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushd4
+  id: floraBushd4
   components:
   - type: Sprite
     layers:
@@ -157,7 +157,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushe1
+  id: floraBushe1
   components:
   - type: Sprite
     layers:
@@ -166,7 +166,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushe2
+  id: floraBushe2
   components:
   - type: Sprite
     layers:
@@ -175,7 +175,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushe3
+  id: floraBushe3
   components:
   - type: Sprite
     layers:
@@ -184,7 +184,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushe4
+  id: floraBushe4
   components:
   - type: Sprite
     layers:
@@ -193,7 +193,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushe4
+  id: floraBushe4
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushf1
+  id: floraBushf1
   components:
   - type: Sprite
     layers:
@@ -211,7 +211,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushf2
+  id: floraBushf2
   components:
   - type: Sprite
     layers:
@@ -220,7 +220,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushf3
+  id: floraBushf3
   components:
   - type: Sprite
     layers:
@@ -229,7 +229,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushg1
+  id: floraBushg1
   components:
   - type: Sprite
     layers:
@@ -238,7 +238,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushg2
+  id: floraBushg2
   components:
   - type: Sprite
     layers:
@@ -247,7 +247,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushg3
+  id: floraBushg3
   components:
   - type: Sprite
     layers:
@@ -256,7 +256,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushg4
+  id: floraBushg4
   components:
   - type: Sprite
     layers:
@@ -265,7 +265,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushh1
+  id: floraBushh1
   components:
   - type: Sprite
     layers:
@@ -274,7 +274,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushh2
+  id: floraBushh2
   components:
   - type: Sprite
     layers:
@@ -283,7 +283,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushh3
+  id: floraBushh3
   components:
   - type: Sprite
     layers:
@@ -292,7 +292,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushi1
+  id: floraBushi1
   components:
   - type: Sprite
     layers:
@@ -301,7 +301,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushi2
+  id: floraBushi2
   components:
   - type: Sprite
     layers:
@@ -310,7 +310,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushi3
+  id: floraBushi3
   components:
   - type: Sprite
     layers:
@@ -319,7 +319,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushi4
+  id: floraBushi4
   components:
   - type: Sprite
     layers:
@@ -328,7 +328,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushj1
+  id: floraBushj1
   components:
   - type: Sprite
     layers:
@@ -337,7 +337,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushj2
+  id: floraBushj2
   components:
   - type: Sprite
     layers:
@@ -346,7 +346,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushj3
+  id: floraBushj3
   components:
   - type: Sprite
     layers:
@@ -355,7 +355,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushk1
+  id: floraBushk1
   components:
   - type: Sprite
     layers:
@@ -364,7 +364,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushk2
+  id: floraBushk2
   components:
   - type: Sprite
     layers:
@@ -373,7 +373,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushk3
+  id: floraBushk3
   components:
   - type: Sprite
     layers:
@@ -382,7 +382,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushl1
+  id: floraBushl1
   components:
   - type: Sprite
     layers:
@@ -391,7 +391,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushl2
+  id: floraBushl2
   components:
   - type: Sprite
     layers:
@@ -400,7 +400,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushl3
+  id: floraBushl3
   components:
   - type: Sprite
     layers:
@@ -409,7 +409,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushl4
+  id: floraBushl4
   components:
   - type: Sprite
     layers:
@@ -418,7 +418,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushm1
+  id: floraBushm1
   components:
   - type: Sprite
     layers:
@@ -427,7 +427,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushm2
+  id: floraBushm2
   components:
   - type: Sprite
     layers:
@@ -436,7 +436,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushm3
+  id: floraBushm3
   components:
   - type: Sprite
     layers:
@@ -445,7 +445,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushm4
+  id: floraBushm4
   components:
   - type: Sprite
     layers:
@@ -454,7 +454,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: FloraBushn1
+  id: floraBushn1
   components:
   - type: Sprite
     layers:

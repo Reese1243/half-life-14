@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseBullet
+  id: BulletLightSniper
+  categories: [ HideSpawnMenu ]
+  name: bullet (7.62×51mm)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50

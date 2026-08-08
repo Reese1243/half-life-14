@@ -2,7 +2,7 @@
   id: MagazineCrossbow
   name: "magazine (bolts)"
   parent: BaseItem
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  description: Curved 5-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: Tag
     tags:
@@ -32,3 +32,26 @@
     steps: 2
     zeroVisible: false
   - type: Appearance
+
+- type: entity
+  parent: BaseMagazineLightRifle
+  id: MagazineSniperM40A1
+  name: "magazine (m40a1)"
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightSniper
+    capacity: 5
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi  
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag

@@ -1,0 +1,61 @@
+- type: entity
+  name: m401a sniper rifle
+  parent: [BaseWeaponRifle, BaseSecurityContraband]
+  id: WeaponSniperM401A
+  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
+  components:
+  - type: Sprite
+    sprite: _MesaStation/Objects/Weapons/Guns/Snipers/m40a1.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _MesaStation/Objects/Weapons/Guns/Snipers/m40a1.rsi
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto  
+    soundGunshot:
+      path: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_fire.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoCycle: false
+    soundRack:
+      path: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_bolt1.ogg
+    soundBoltClosed: 
+      path: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_reload3.ogg
+    soundBoltOpened:   
+      path: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_reload_second_seq.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineSniperM40A1
+        insertSound: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_reload_second_seq.ogg
+        ejectSound: /Audio/Weapons/MesaStationWeapons/M40_Sniper_Rifle/sniper_reload3.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 10
+    pvsIncrease: 0.3    
+  - type: Appearance
