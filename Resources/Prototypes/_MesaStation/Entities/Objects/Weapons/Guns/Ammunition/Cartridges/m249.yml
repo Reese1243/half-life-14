@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseCartridgeLightRifle
+  id: CartridgeLightMachineGun
+  name: cartridge (5.56×45mm)
+  description: A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLightMachineGun

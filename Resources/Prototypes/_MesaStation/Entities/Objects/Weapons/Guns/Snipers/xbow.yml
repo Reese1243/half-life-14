@@ -28,6 +28,7 @@
     soundRack:
       path: /Audio/Weapons/MesaStationWeapons/Crossbow/xbow_rack1.ogg
     soundBoltClosed: null
+  - type: GunRequiresWield
   - type: UseDelay
     delay: 1.5
   - type: ItemSlots
