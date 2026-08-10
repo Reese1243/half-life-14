@@ -46,8 +46,9 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: UseDelay
+    delay: 1
   - type: GunRequiresWield
-    delay: 2
   - type: SpeedModifiedOnWield
     walkModifier: 0.6
     sprintModifier: 0.6
