@@ -184,7 +184,7 @@
 
 - type: entity
   parent: BaseBushFlora
-  id: floraBushe4
+  id: basefloraBushe4
   components:
   - type: Sprite
     layers:
