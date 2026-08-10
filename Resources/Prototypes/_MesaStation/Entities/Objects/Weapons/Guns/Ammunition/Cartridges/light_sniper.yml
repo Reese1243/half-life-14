@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCartridgeLightRifle
   id: CartridgeLightSniper
-  name: cartridge (7.62×51mm)
+  name: cartridge (7.62×51)
   description: A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
