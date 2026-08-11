@@ -2,7 +2,7 @@
   name: M249 saw
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponMachinegunM249
-  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
+  description: A light machinegun.
   components:
   - type: Sprite
     sprite: _MesaStation/Objects/Weapons/Guns/HMGs/m249.rsi
