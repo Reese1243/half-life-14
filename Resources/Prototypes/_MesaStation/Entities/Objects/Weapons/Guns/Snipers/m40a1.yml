@@ -1,7 +1,7 @@
 - type: entity
   name: m40a1 sniper rifle
   parent: [BaseWeaponRifle, BaseSecurityContraband]
-  id: WeaponSniperM401A
+  id: WeaponSniperM40A1
   description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
   components:
   - type: Sprite
