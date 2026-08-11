@@ -246,11 +246,6 @@
     - !type:AlwaysTrueRule
 
 - type: rules
-  id: AlwaysTrue2
-  rules:
-    - !type:AlwaysTrueRule
-
-- type: rules
   id: InSpace
   rules:
     - !type:InSpaceRule

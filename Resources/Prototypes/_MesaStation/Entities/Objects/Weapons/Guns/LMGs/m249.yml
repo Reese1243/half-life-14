@@ -14,6 +14,7 @@
   - type: Clothing
     sprite: _MesaStation/Objects/Weapons/Guns/HMGs/m249.rsi
   - type: Gun
+    maxAngle: 80
     soundGunshot:
       collection: M249GunshotCollection
     fireRate: 7
