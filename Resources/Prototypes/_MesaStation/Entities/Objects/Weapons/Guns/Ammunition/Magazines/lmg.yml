@@ -5,7 +5,7 @@
   description: 
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeLightMachineGun
+    proto: CartridgeLightRifle
     capacity: 50
   - type: Sprite
     sprite: _MesaStation/Objects/Weapons/Guns/Ammunition/Magazine/HMGs/m249_mag.rsi

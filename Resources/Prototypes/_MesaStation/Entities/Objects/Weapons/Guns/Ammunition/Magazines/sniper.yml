@@ -36,7 +36,7 @@
 - type: entity
   parent: BaseMagazineLightRifle
   id: MagazineSniperM40A1
-  name: "magazine (m40a1)"
+  name: "magazine (M40A1)"
   description: 5-round magazine.
   components:
   - type: BallisticAmmoProvider
