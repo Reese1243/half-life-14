@@ -112,8 +112,6 @@
   id: AmbienceGeneral
   files:
     - /Audio/Ambience/MesaStationAmbience/Facility/boomer.ogg
-    - /Audio/Ambience/MesaStationAmbience/Facility/computalk1.ogg
-    - /Audio/Ambience/MesaStationAmbience/Facility/computalk2.ogg
     - /Audio/Ambience/MesaStationAmbience/Facility/industrial1.ogg
     - /Audio/Ambience/MesaStationAmbience/Facility/industrial2.ogg
     - /Audio/Ambience/MesaStationAmbience/Facility/industrial3.ogg
@@ -135,17 +133,13 @@
 - type: soundCollection
   id: AmbienceMaintenance
   files:
-    - /Audio/Ambience/ambimaint1.ogg
-    - /Audio/Ambience/ambimaint2.ogg
-    - /Audio/Ambience/ambimaint3.ogg
-    - /Audio/Ambience/ambimaint4.ogg
-    - /Audio/Ambience/ambimaint5.ogg
-    - /Audio/Ambience/ambitech2.ogg
-    - /Audio/Voice/Misc/lowHiss1.ogg
-    - /Audio/Voice/Misc/lowHiss2.ogg
-    - /Audio/Voice/Misc/lowHiss3.ogg
-    - /Audio/Voice/Misc/lowHiss4.ogg
-    - /Audio/Ambience/maintambience.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/boomer.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial1.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial2.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial3.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/industrial4.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/techamb1.ogg
+    - /Audio/Ambience/MesaStationAmbience/Facility/techamb2.ogg
 
 - type: soundCollection
   id: AmbienceMedical

@@ -1,0 +1,6 @@
+- type: soundCollection
+  id: FloraBushCollection
+  files:
+  - /Audio/MesaStationAmbience/flies.ogg
+  - /Audio/MesaStationAmbience/bee1.ogg
+  - /Audio/MesaStationAmbience/bee2.ogg

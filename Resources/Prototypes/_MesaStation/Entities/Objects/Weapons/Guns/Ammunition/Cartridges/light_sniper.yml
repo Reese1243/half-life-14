@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseCartridgeLightRifle
+  id: CartridgeLightSniper
+  name: cartridge (7.62×51)
+  description: A classic intermediate cartridge.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLightSniper
