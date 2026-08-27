@@ -12,7 +12,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 70
+        Piercing: 30
 
 - type: entity
   parent: BoltBullet
@@ -30,16 +30,16 @@
       types:
         Piercing: 20
   - type: StaminaDamageOnCollide #additional stam damage to make repeated pushups less of a viable counter
-    damage: 75
+    damage: 25
   - type: SolutionContainerManager
     solutions:
       bolt:
-        maxVol: 100
+        maxVol: 10
         reagents:
         - ReagentId: Nocturine
-          Quantity: 100
+          Quantity: 10
   - type: SolutionInjectOnProjectileHit
-    transferAmount: 35
+    transferAmount: 6
     solution: bolt        
 
 - type: entity
@@ -56,16 +56,16 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 25
   - type: SolutionContainerManager
     solutions:
       bolt:
-        maxVol: 55
+        maxVol: 3
         reagents:
         - ReagentId: Toxin
-          Quantity: 55
+          Quantity: 3
   - type: SolutionInjectOnProjectileHit
-    transferAmount: 6
+    transferAmount: 3
     solution: bolt   
 
 - type: entity
@@ -85,9 +85,9 @@
         volume: -5    
   - type: Explosive
     explosionType: Default
-    maxIntensity: 10
+    maxIntensity: 3
     intensitySlope: 3
-    totalIntensity: 120 # about a ~4 tile radius
+    totalIntensity: 20 # about a ~4 tile radius
     canCreateVacuum: false
   - type: CartridgeAmmo
     muzzleFlash: null
@@ -95,7 +95,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 70
+        Piercing: 25
   - type: TriggerOnSpawn
   - type: TwoStageTrigger
     triggerDelay: 1
