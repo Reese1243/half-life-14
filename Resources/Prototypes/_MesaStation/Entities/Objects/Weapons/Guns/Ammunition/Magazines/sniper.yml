@@ -34,6 +34,60 @@
   - type: Appearance
 
 - type: entity
+  id: MagazineCrossbowExplosive
+  name: "magazine (bolts explosive)"
+  parent: MagazineCrossbow
+  description: Curved 5-round double stack magazine
+  components:
+  - type: Tag
+    tags:
+      - MagazineLightRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeCaselessRifle
+        - Arrow
+    proto: BoltCrossbowExplosive
+    capacity: 5
+
+- type: entity
+  id: MagazineCrossbowPoison
+  name: "magazine (bolts poison)"
+  parent: MagazineCrossbow
+  description: Curved 5-round double stack magazine
+  components:
+  - type: Tag
+    tags:
+      - MagazineLightRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeCaselessRifle
+        - Arrow
+    proto: BoltCrossbowPoison
+    capacity: 5
+
+- type: entity
+  id: MagazineCrossbowNocturine
+  name: "magazine (bolts nocturine)"
+  parent: MagazineCrossbow
+  description: Curved 5-round double stack magazine
+  components:
+  - type: Tag
+    tags:
+      - MagazineLightRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeCaselessRifle
+        - Arrow
+    proto: BoltCrossbowNocturine
+    capacity: 5
+
+- type: entity
   parent: BaseMagazineLightRifle
   id: MagazineSniperM40A1
   name: "magazine (M40A1)"

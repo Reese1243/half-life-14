@@ -15,8 +15,101 @@
         Piercing: 70
 
 - type: entity
+  parent: BoltBullet
+  id: BoltBulletNocturine
+  categories: [ HideSpawnMenu ]
+  name: bolt
+  components:
+  - type: Sprite
+    state: rod
+  - type: CartridgeAmmo
+    muzzleFlash: null
+    proto: BoltBullet
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+  - type: StaminaDamageOnCollide #additional stam damage to make repeated pushups less of a viable counter
+    damage: 75
+  - type: SolutionContainerManager
+    solutions:
+      bolt:
+        maxVol: 100
+        reagents:
+        - ReagentId: Nocturine
+          Quantity: 100
+  - type: SolutionInjectOnProjectileHit
+    transferAmount: 35
+    solution: bolt        
+
+- type: entity
+  parent: BoltBullet
+  id: BoltBulletPoison
+  categories: [ HideSpawnMenu ]
+  name: bolt
+  components:
+  - type: Sprite
+    state: rod
+  - type: CartridgeAmmo
+    muzzleFlash: null
+    proto: BoltBullet
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+  - type: SolutionContainerManager
+    solutions:
+      bolt:
+        maxVol: 55
+        reagents:
+        - ReagentId: Toxin
+          Quantity: 55
+  - type: SolutionInjectOnProjectileHit
+    transferAmount: 6
+    solution: bolt   
+
+- type: entity
+  parent: BoltBullet
+  id: BoltBulletExplosive
+  categories: [ HideSpawnMenu ]
+  name: bolt
+  components:
+  - type: Sprite
+    state: rod
+  - type: TimerTrigger
+    delay: 6
+    beepInterval: 0.46
+    beepSound:
+      path: /Audio/Effects/Grenades/Supermatter/smbeep.ogg
+      params:
+        volume: -5    
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 120 # about a ~4 tile radius
+    canCreateVacuum: false
+  - type: CartridgeAmmo
+    muzzleFlash: null
+    proto: BoltBullet
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 70
+  - type: TriggerOnSpawn
+  - type: TwoStageTrigger
+    triggerDelay: 1
+    keysIn:
+    - timer
+    components: 
+      - type: ExplodeOnTrigger
+        keysIn:
+        - stageTwo
+
+- type: entity
   parent: BaseArrow
   id: BoltRegular
+  categories: [ HideSpawnMenu ]    
   name: bolt
   description: You can feel the power of the steppe within you.
   components:
@@ -29,6 +122,7 @@
 - type: entity
   parent: CartridgeCaselessRifle
   id: BoltCrossbow
+  categories: [ HideSpawnMenu ]  
   name: bolt
   description: A heavy bolt used in construction. Excellent for piercing armor.
   components:
@@ -38,4 +132,49 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
-    - state: rod          
+    - state: rod        
+
+- type: entity
+  parent: BoltCrossbow
+  id: BoltCrossbowExplosive
+  categories: [ HideSpawnMenu ]  
+  name: bolt (explosive)
+  description: A heavy bolt used in construction. Excellent for piercing armor.
+  components:
+  - type: CartridgeAmmo
+    muzzleFlash: null  
+    proto: BoltBulletExplosive
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    layers:
+    - state: rod    
+
+- type: entity
+  parent: BoltCrossbow
+  id: BoltCrossbowPoison
+  categories: [ HideSpawnMenu ]  
+  name: bolt (poison)
+  description: A heavy bolt used in construction. Excellent for piercing armor.
+  components:
+  - type: CartridgeAmmo
+    muzzleFlash: null  
+    proto: BoltBulletPoison
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    layers:
+    - state: rod
+
+- type: entity
+  parent: BoltCrossbow
+  id: BoltCrossbowNocturine
+  categories: [ HideSpawnMenu ]  
+  name: bolt (nocturine)
+  description: A heavy bolt used in construction. Excellent for piercing armor.
+  components:
+  - type: CartridgeAmmo
+    muzzleFlash: null  
+    proto: BoltBulletNocturine
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    layers:
+    - state: rod
