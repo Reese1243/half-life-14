@@ -1,0 +1,10 @@
+names-blackops-first-dataset-1 = Delta
+names-blackops-first-dataset-2 = Omega
+names-blackops-first-dataset-3 = Alpha
+names-blackops-first-dataset-4 = Gamma
+names-blackops-first-dataset-5 = Eta
+names-blackops-first-dataset-6 = Sigma
+names-blackops-first-dataset-7 = Alpha
+names-blackops-first-dataset-8 = Epsilon
+names-blackops-first-dataset-9 = Beta
+names-blackops-first-dataset-10 = Lambda

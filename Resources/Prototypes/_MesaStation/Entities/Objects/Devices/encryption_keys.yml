@@ -13,3 +13,19 @@
     layers:
     - state: crypt_green
     - state: hecu_label
+
+- type: entity
+  parent: [ EncryptionKey, BaseSecurityLawyerContraband]
+  id: EncryptionKeyBlackops
+  name: Operative Encryption Key
+  description: An encryption key used by the Black Operations Operatives
+  components:
+  - type: EncryptionKey
+    channels:
+    - BlackOps
+    defaultChannel: BlackOps
+  - type: Sprite
+    sprite: _MesaStation/Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_black
+    - state: blackops_label

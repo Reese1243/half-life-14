@@ -8,6 +8,8 @@
   },
   "states": [
     {"name": "crypt_green"},
-    {"name": "hecu_label"}
+    {"name": "hecu_label"},
+    {"name": "blackops_label"},
+    {"name": "crypt_black"}
   ]
 }

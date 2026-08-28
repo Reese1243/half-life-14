@@ -33,6 +33,40 @@
     reregister: false
   - type: GhostTakeoverAvailable
 
+# Black Ops
+- type: entity
+  parent: MobHuman
+  id: MobHumanBlackOpsAgent
+  name: Black Ops Agent
+  suffix: Human, Base
+  components:
+  - type: Loadout
+    prototypes: [BlackOpsAgentGear]
+  - type: RandomMetadata
+    nameSegments:
+      - NamesBlackOpsFirst
+      - NamesBlackOpsLast
+    nameFormat: name-format-standard
+  - type: Grammar
+    attributes:
+      gender: male
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+
+- type: entity
+  parent: MobHumanBlackOpsAgent
+  id: MobHumanBlackOpsAgentGhostRole
+  suffix: Ghost role
+  components:
+  - type: GhostRole
+    name: ghost-role-information-blackops-name
+    description: ghost-role-information-blackops-description
+    rules: ghost-role-information-blackops-rules
+    raffle:
+      settings: default
+    reregister: false
+  - type: GhostTakeoverAvailable
 
 #Syndie
 - type: entity

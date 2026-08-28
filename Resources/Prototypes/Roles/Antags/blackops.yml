@@ -1,0 +1,21 @@
+- type: antag
+  id: Blackops
+  name: roles-antag-blackops-name
+  antagonist: true
+  setPreference: false
+  objective: roles-antag-blackops-objective
+
+
+# Default HECU gear
+- type: startingGear
+  id: BlackOpsAgentGear
+  equipment:
+    jumpsuit: ClothingUniformBlackOpsAgent
+    eyes: ClothingEyesBlackOpsNightVision
+    ears: ClothingHeadsetBlackops
+    gloves: ClothingHandsGlovesColorBlack
+    outerClothing: ClothingOuterBlackOps
+    shoes: ClothingShoesBootsSyndieFilled
+    belt: ClothingBeltBlackOpsWebbing
+    balaclava: ClothingBalaclavaBlackOps
+
