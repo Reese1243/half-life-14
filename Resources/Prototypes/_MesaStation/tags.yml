@@ -1,0 +1,8 @@
+- type: Tag
+  id: MagazinePistolSubMachineGunMp5 # WeaponSubMachineGunMp5
+
+- type: Tag
+  id: MagazineGlock #WeaponPistolGlock
+
+- type: Tag
+  id: MagazineM249 # M249

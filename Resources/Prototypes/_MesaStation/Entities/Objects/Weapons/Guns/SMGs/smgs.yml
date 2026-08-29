@@ -7,7 +7,7 @@
   - type: Gun
     minAngle: 21
     maxAngle: 32
-    fireRate: 6
+    fireRate: 7
     availableModes:
       - FullAuto
       - SemiAuto
