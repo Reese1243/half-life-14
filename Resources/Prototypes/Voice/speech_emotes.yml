@@ -168,9 +168,6 @@
   name: chat-emote-name-squeak
   category: Vocal
   icon: Interface/Emotes/squeak.png
-  whitelist:
-    tags:
-    - HarpyEmotes
   blacklist:
     components:
     - BorgChassis
