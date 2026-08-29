@@ -55,7 +55,7 @@
     factions:
     - NanoTrasen
   - type: JumpAbility
-    action: ActionVulpkaninGravityJump
+    action: ActionGravityJump
     canCollide: true
     jumpDistance: 3
     jumpThrowSpeed: 15
@@ -65,6 +65,12 @@
         pitch: 1.33
         volume: -5
         variation: 0.05    
+  - type: CombatMode
+    disarmFailChance: 0.45
+  - type: Stamina
+    baseCritThreshold: 120
+  - type: Crawler
+    standTime: 1
 
 - type: entity
   parent: MobHumanBlackOpsAgent
