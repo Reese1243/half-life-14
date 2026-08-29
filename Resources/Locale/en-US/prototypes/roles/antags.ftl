@@ -52,3 +52,6 @@ roles-antag-xenoborg-objective = Help the mothership create more xenoborgs.
 
 roles-antag-hecu-name = HECU Grunt
 roles-antag-hecu-objective = Eliminate all government employees of Black Mesa. The cover up must succeed.
+
+roles-antag-blackops-name = Black Ops Operative
+roles-antag-blackops-objective = Eliminate all All the remaining HECU soldiers. Destroy the Black Mesa Facility.

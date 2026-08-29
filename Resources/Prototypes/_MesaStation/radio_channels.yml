@@ -4,3 +4,10 @@
   keycode: '0'
   color: '#0F9C07'
   longRange: true
+
+- type: radioChannel
+  id: BlackOps
+  name: chat-radio-blackops
+  keycode: 'o'
+  color: "#770000"
+  longRange: true

@@ -164,7 +164,7 @@
    - chittered
 
 - type: emote
-  id: Squeak
+  id: Charge
   name: Charge
   category: Vocal
   available: false

@@ -6,12 +6,12 @@
   sounds:
     Scream:
       collection: MaleScreams
-    Squeak: #Mothunisex Emote used
-      collection: MaleCharge
     Laugh:
       collection: MaleLaugh
     Sneeze:
       collection: MaleSneezes
+    Charge:
+      collection: MaleCharge      
     Cough:
       collection: MaleCoughs
     CatMeow:

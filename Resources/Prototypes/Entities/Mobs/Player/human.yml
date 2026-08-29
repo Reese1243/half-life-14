@@ -18,6 +18,8 @@
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: Speech
+    allowedEmotes: ['Charge']
 
 - type: entity
   parent: MobHumanHecuGrunt
@@ -33,6 +35,50 @@
     reregister: false
   - type: GhostTakeoverAvailable
 
+# Black Ops
+- type: entity
+  parent: MobHuman
+  id: MobHumanBlackOpsAgent
+  name: Black Ops Agent
+  suffix: Human, Base
+  components:
+  - type: Loadout
+    prototypes: [BlackOpsAgentGear]
+  - type: RandomMetadata
+    nameSegments:
+      - NamesBlackOpsOperative
+    nameFormat: name-format-blackops
+  - type: Grammar
+    attributes:
+      gender: male
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: JumpAbility
+    action: ActionVulpkaninGravityJump
+    canCollide: true
+    jumpDistance: 3
+    jumpThrowSpeed: 15
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05    
+
+- type: entity
+  parent: MobHumanBlackOpsAgent
+  id: MobHumanBlackOpsAgentGhostRole
+  suffix: Ghost role
+  components:
+  - type: GhostRole
+    name: ghost-role-information-blackops-name
+    description: ghost-role-information-blackops-description
+    rules: ghost-role-information-blackops-rules
+    raffle:
+      settings: default
+    reregister: false
+  - type: GhostTakeoverAvailable
 
 #Syndie
 - type: entity

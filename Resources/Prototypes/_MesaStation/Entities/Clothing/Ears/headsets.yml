@@ -13,3 +13,19 @@
     sprite: _MesaStation/Clothing/Ears/Headsets/hecu.rsi
   - type: Clothing
     sprite: _MesaStation/Clothing/Ears/Headsets/hecu.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetBlackops
+  name: BlackOps over-ear headset
+  description: A combat-issue radio headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyBlackops
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: _MesaStation/Clothing/Ears/Headsets/blackops.rsi
+  - type: Clothing
+    sprite: _MesaStation/Clothing/Ears/Headsets/blackops.rsi

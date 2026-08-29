@@ -5,6 +5,12 @@
     count: 4
 
 - type: localizedDataset
+  id: NamesBlackOpsOperative
+  values:
+    prefix: names-blackops-elite-dataset-
+    count: 23
+
+- type: localizedDataset
   id: NamesMilitaryFirst
   values:
     prefix: names-military-first-dataset-
