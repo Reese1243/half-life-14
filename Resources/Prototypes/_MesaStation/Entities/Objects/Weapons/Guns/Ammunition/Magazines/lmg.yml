@@ -4,6 +4,9 @@
   name: "magazine (m249)"
   description: 
   components:
+  - type: Tag
+    tags:
+      - MagazineM249
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
     capacity: 50
@@ -15,7 +18,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: Large
+    size: Normal
     inhandVisuals:
       left:
       - state: inhand-left-mag

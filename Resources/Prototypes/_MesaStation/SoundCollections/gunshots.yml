@@ -1,0 +1,13 @@
+- type: soundCollection
+  id: M249GunshotCollection
+  files:
+    - /Audio/Weapons/MesaStationWeapons/OF_M249_SAW/saw_fire1.ogg
+    - /Audio/Weapons/MesaStationWeapons/OF_M249_SAW/saw_fire2.ogg
+    - /Audio/Weapons/MesaStationWeapons/OF_M249_SAW/saw_fire3.ogg
+
+- type: soundCollection
+  id: M4GunshotCollection
+  files:
+    - /Audio/_MesaStation/Weapons/Guns/M4/fire_1.ogg
+    - /Audio/_MesaStation/Weapons/Guns/M4/fire_2.ogg
+    - /Audio/_MesaStation/Weapons/Guns/M4/fire_3.ogg
