@@ -199,7 +199,7 @@ ghost-role-information-hecu-description = You are an HECU Grunt. Cover up the Re
 ghost-role-information-hecu-rules = You are an antagonist, work with other operatives and eliminate all Black Mesa employees.
 
 ghost-role-information-blackops-name = Black Ops Agent
-ghost-role-information-blackops-description = You are an Black Operations Agent, an elite unit of highly trained killer fighters.You have arrived to destroy the last HECU soldiers and Black Mesa Facility by activating the bomb. Destroy the Black Mesa Facility .
+ghost-role-information-blackops-description = You are an Black Operations Agent, an elite unit of highly trained killer fighters.You have arrived to destroy the last HECU soldiers and Black Mesa Facility by activating the bomb. Destroy the Black Mesa Facility.
 ghost-role-information-blackops-rules = You are an antagonist, work with other operatives and eliminate all Black Mesa Facility.
 
 ghost-role-information-behonker-name = Behonker

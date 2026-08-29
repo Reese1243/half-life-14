@@ -18,6 +18,8 @@
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: Speech
+    allowedEmotes: ['Charge']
 
 - type: entity
   parent: MobHumanHecuGrunt
@@ -44,15 +46,25 @@
     prototypes: [BlackOpsAgentGear]
   - type: RandomMetadata
     nameSegments:
-      - NamesBlackOpsFirst
-      - NamesBlackOpsLast
-    nameFormat: name-format-standard
+      - NamesBlackOpsOperative
+    nameFormat: name-format-blackops
   - type: Grammar
     attributes:
       gender: male
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: JumpAbility
+    action: ActionVulpkaninGravityJump
+    canCollide: true
+    jumpDistance: 3
+    jumpThrowSpeed: 15
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05    
 
 - type: entity
   parent: MobHumanBlackOpsAgent

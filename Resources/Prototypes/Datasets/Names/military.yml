@@ -5,16 +5,10 @@
     count: 4
 
 - type: localizedDataset
-  id: NamesBlackOpsFirst
+  id: NamesBlackOpsOperative
   values:
-    prefix: names-blackops-first-dataset-
-    count: 10
-
-- type: localizedDataset
-  id: NamesBlackOpsLast
-  values:
-    prefix: names-blackops-last-dataset-
-    count: 7
+    prefix: names-blackops-elite-dataset-
+    count: 23
 
 - type: localizedDataset
   id: NamesMilitaryFirst
