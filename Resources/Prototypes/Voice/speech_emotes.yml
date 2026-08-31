@@ -164,6 +164,18 @@
    - chittered
 
 - type: emote
+  id: Squeak
+  name: chat-emote-name-squeak
+  category: Vocal
+  icon: Interface/Emotes/squeak.png
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-squeak"]
+  chatTriggers:
+   - squeaks
+
+- type: emote
   id: Charge
   name: Charge
   category: Vocal
