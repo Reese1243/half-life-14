@@ -110,7 +110,7 @@ public sealed partial class SharedJumpAbilitySystem : EntitySystem
         if (meta.EntityPrototype is not { } proto)
             return false;
 
-        if (proto.ID == "MobHumanBlackOpsAgent")
+        if (proto.ID == "MobHumanBlackOpsAssasin")
             return true;
 
         var visited = new HashSet<string>();
@@ -125,7 +125,7 @@ public sealed partial class SharedJumpAbilitySystem : EntitySystem
             if (!visited.Add(parentId))
                 continue;
 
-            if (parentId == "MobHumanBlackOpsAgent")
+            if (parentId == "MobHumanBlackOpsAssasin")
                 return true;
 
             if (!_proto.TryIndex<EntityPrototype>(parentId, out var parentProto))

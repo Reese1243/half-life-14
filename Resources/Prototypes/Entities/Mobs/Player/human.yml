@@ -53,18 +53,7 @@
       gender: male
   - type: NpcFactionMember
     factions:
-    - NanoTrasen
-  - type: JumpAbility
-    action: ActionGravityJump
-    canCollide: true
-    jumpDistance: 3
-    jumpThrowSpeed: 15
-    jumpSound:
-      path: /Audio/Weapons/punchmiss.ogg
-      params:
-        pitch: 1.33
-        volume: -5
-        variation: 0.05    
+    - NanoTrasen  
   - type: CombatMode
     disarmFailChance: 0.45
   - type: Stamina
@@ -86,6 +75,57 @@
       settings: default
     reregister: false
   - type: GhostTakeoverAvailable
+
+- type: entity
+  parent: MobHuman
+  id: MobHumanBlackOpsAssasin
+  name: Black Ops Assasin
+  suffix: Human, Base
+  components:
+  - type: Loadout
+    prototypes: [BlackOpsAgentGear]
+  - type: RandomMetadata
+    nameSegments:
+      - NamesBlackOpsOperative
+    nameFormat: name-format-blackops
+  - type: Grammar
+    attributes:
+      gender: male
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: JumpAbility
+    action: ActionGravityJump
+    canCollide: true
+    jumpDistance: 3
+    jumpThrowSpeed: 15
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05    
+  - type: CombatMode
+    disarmFailChance: 0.45
+  - type: Stamina
+    baseCritThreshold: 120
+  - type: Crawler
+    standTime: 1
+  - type: AnimatedEmotes  
+
+- type: entity
+  parent: MobHumanBlackOpsAssasin
+  id: MobHumanBlackOpsAssasinGhostRole
+  suffix: Ghost role
+  components:
+  - type: GhostRole
+    name: ghost-role-information-blackops-name
+    description: ghost-role-information-blackops-description
+    rules: ghost-role-information-blackops-rules
+    raffle:
+      settings: default
+    reregister: false
+  - type: GhostTakeoverAvailable  
 
 #Syndie
 - type: entity
