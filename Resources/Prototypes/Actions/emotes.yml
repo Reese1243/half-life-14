@@ -27,7 +27,7 @@
   name: chat-emote-name-jump
   whitelist:
     components:
-    - RandomumanoidAppearance
+    - RandomHumanoidAppearance
   chatMessages: ["chat-emote-msg-jump"]
   chatTriggers:
   - jump
