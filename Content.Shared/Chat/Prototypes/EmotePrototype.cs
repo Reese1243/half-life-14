@@ -1,4 +1,5 @@
 using Content.Shared.Whitelist;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
@@ -68,6 +69,13 @@ public sealed partial class EmotePrototype : IPrototype
     /// </summary>
     [DataField]
     public HashSet<string> ChatTriggers = new();
+
+    /// <summary>
+    ///     The event to raise when this emote is performed.
+    ///     If set, this event is raised locally and should be handled by the relevant system.
+    /// </summary>
+    [DataField, NonSerialized]
+    public EntityEventArgs? Event;
 }
 
 /// <summary>
