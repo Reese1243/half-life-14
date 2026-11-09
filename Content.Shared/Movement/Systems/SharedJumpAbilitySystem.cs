@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using Content.Shared.Actions;
 using Content.Shared.Actions.Components;
 using Content.Shared.Cloning.Events;
+using Content.Shared.Emoting;
 using Content.Shared.Gravity;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
@@ -9,6 +11,7 @@ using Content.Shared.Stunnable;
 using Content.Shared.Throwing;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics.Events;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Movement.Systems;
 
@@ -21,6 +24,7 @@ public sealed partial class SharedJumpAbilitySystem : EntitySystem
     [Dependency] private readonly SharedStunSystem _stun = default!;
     [Dependency] private readonly StandingStateSystem _standing = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly IPrototypeManager _proto = default!;
 
     public override void Initialize()
     {
@@ -91,7 +95,50 @@ public sealed partial class SharedJumpAbilitySystem : EntitySystem
             Dirty(entity.Owner, leaperComp);
         }
 
+        if (TryComp(args.Performer, out AnimatedEmotesComponent? _)
+            && IsBlackOps(args.Performer))
+        {
+            RaiseLocalEvent(args.Performer, new AnimationFlipEmoteEvent());
+        }
+
         args.Handled = true;
+    }
+
+    private bool IsBlackOps(EntityUid uid)
+    {
+        var meta = MetaData(uid);
+        if (meta.EntityPrototype is not { } proto)
+            return false;
+
+        if (proto.ID == "MobHumanBlackOpsAgent")
+            return true;
+
+        var visited = new HashSet<string>();
+        var parents = proto.Parents;
+        if (parents == null)
+            return false;
+
+        var stack = new Stack<string>(parents);
+        while (stack.Count > 0)
+        {
+            var parentId = stack.Pop();
+            if (!visited.Add(parentId))
+                continue;
+
+            if (parentId == "MobHumanBlackOpsAgent")
+                return true;
+
+            if (!_proto.TryIndex<EntityPrototype>(parentId, out var parentProto))
+                continue;
+
+            if (parentProto.Parents != null)
+            {
+                foreach (var p in parentProto.Parents)
+                    stack.Push(p);
+            }
+        }
+
+        return false;
     }
 
     private void OnClone(Entity<JumpAbilityComponent> ent, ref CloningEvent args)
