@@ -60,7 +60,6 @@
     baseCritThreshold: 120
   - type: Crawler
     standTime: 1
-  - type: AnimatedEmotes
 
 - type: entity
   parent: MobHumanBlackOpsAgent
