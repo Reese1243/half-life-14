@@ -146,7 +146,7 @@
     accent: zombieMoth
   - type: Speech
     speechVerb: Moth
-    allowedEmotes: ['Chitter', 'Squeak', 'Flap']
+    allowedEmotes: ['Chitter', 'Flap']
   - type: TypingIndicator
     proto: moth
   - type: CreamPied
