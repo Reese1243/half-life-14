@@ -12,9 +12,40 @@
     sprite: _MesaStation/Clothing/OuterClothing/Hardsuits/hev_mk4.rsi
     equipSound:
       path: /Audio/MesaStationHevMk4/hev_logon.ogg
+      params:
+        maxDistance: 5
     stripDelay: 5
     equipDelay: 5
     unequipDelay: 5
+    # Armor protection should be based on suit energy later
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.45
+        Radiation: 0.20
+        Poison: 0.35
+  - type: TemperatureProtection
+    heatingCoefficient: 0.75
+    coolingCoefficient: 0.5
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.20        
+  - type: Geiger
+    attachedToSuit: true
+    showControl: true
+    showExamine: true
+  - type: TelecomExempt
+  - type: RadioMicrophone
+    listenRange: 1
+    enabled: true
+    broadcastChannel: HevHeld
+  - type: RadioSpeaker
+    channels:
+    - HevHeld
+    # Add mesa personel too
+  - type: Speech
+    speechVerb: Robotic
+  - type: SuitSensor
+    mode: 3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHevMk4
   - type: ClothingSpeedModifier

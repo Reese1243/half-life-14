@@ -168,6 +168,7 @@
   name: chat-emote-name-squeak
   category: Vocal
   icon: Interface/Emotes/squeak.png
+  available: false
   blacklist:
     components:
     - BorgChassis
